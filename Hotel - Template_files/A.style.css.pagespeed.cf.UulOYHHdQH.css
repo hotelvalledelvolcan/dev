@@ -2293,7 +2293,7 @@ li {
 .instagram-area .section-tittle img {
     margin-bottom: 30px;
 }
-.instagram-area .single-instagram::before {
+/* .instagram-area .single-instagram::before {
     position: absolute;
     content: "";
     left: 0;
@@ -2306,12 +2306,8 @@ li {
     opacity: 0;
     visibility: hidden;
     z-index: 1;
-    -webkit-transition: 0.4s;
-    -moz-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
-}
-.instagram-area .single-instagram i {
+} */
+/* .instagram-area .single-instagram i {
     position: absolute;
     left: 0;
     right: 0;
@@ -2327,16 +2323,16 @@ li {
     -moz-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
-}
-.instagram-area .single-instagram:hover i {
+} */
+/* .instagram-area .single-instagram:hover i {
     top: 48%;
     opacity: 1;
     visibility: visible;
-}
-.instagram-area .single-instagram:hover::before {
+} */
+/* .instagram-area .single-instagram:hover::before {
     visibility: visible;
     opacity: 0.3;
-}
+} */
 .footer-wrapper {
     position: relative;
     background: #fff7f3;
