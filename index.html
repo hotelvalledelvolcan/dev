@@ -457,7 +457,7 @@
       <div class="container">
         <div class="custom-row">
           <div class="client-active slick-initialized slick-slider"><button type="button" class="slick-prev slick-arrow"
-              style="display: block;"><i class="ti-angle-left"></i></button>
+              style="display: block;"><i class="fas fa-arrow-left"></i></button>
 
 
 
@@ -552,8 +552,7 @@
                   </div>
                 </div>
               </div>
-            </div><button type="button" class="slick-next slick-arrow" style="display: block;"><i
-                class="ti-angle-right"></i></button>
+            </div><button type="button" class="slick-next slick-arrow" style="display: block;"><i class="fas fa-arrow-right"></i></button>
           </div>
         </div>
       </div>
@@ -695,11 +694,6 @@
 
                 </div>
               </div>
-              <div class="owl-nav disabled">
-                <div class="owl-prev">prev</div>
-                <div class="owl-next">next</div>
-              </div>
-              <div class="owl-dots disabled"></div>
             </div>
           </div>
         </div>
@@ -812,10 +806,11 @@
 
   <script>eval(mod_pagespeed_bQZy5PqX86);</script>
   <script>eval(mod_pagespeed_wRBOHFKjog);</script>
-  <script
-    src="./Hotel - Template_files/jquery.magnific-popup.js+owl.carousel.min.js.pagespeed.jc.IzbBUhOH_1.js.descargar"></script>
-  <script>eval(mod_pagespeed_rE1flnEzJ_);</script>
-  <script>eval(mod_pagespeed_d$xjq9KlQ_);</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+    integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <script src="./Hotel - Template_files/slick.min.js.descargar"></script>
 
   <script src="./Hotel - Template_files/gijgo.min.js.descargar"></script>
@@ -891,6 +886,9 @@
         }
       }
     });
+
+    $('.popup-video').magnificPopup({type: 'iframe', closeOnContentClick: true});
+
   </script>
 </body>
 
