@@ -5,8 +5,8 @@
   ],
   "version": "4.46.0",
   "hash": "d3d3fe8085b4b4b55748",
-  "time": 4926,
-  "builtAt": 1630171068433,
+  "time": 2481,
+  "builtAt": 1630171248843,
   "publicPath": "/",
   "outputPath": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\dist",
   "assetsByChunkName": {
@@ -297,9 +297,9 @@
             0,
             3
           ],
-          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-          "issuerId": null,
-          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx",
+          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+          "issuerId": 129,
+          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx",
           "issuerPath": [
             {
               "id": 63,
@@ -317,14 +317,14 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx"
+              "id": 59,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
             },
             {
-              "id": null,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx"
+              "id": 129,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx"
             }
           ],
           "failed": false,
@@ -2143,9 +2143,9 @@
             0,
             3
           ],
-          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-          "issuerId": null,
-          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx",
+          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+          "issuerId": 129,
+          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx",
           "issuerPath": [
             {
               "id": 63,
@@ -2163,14 +2163,14 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
             },
             {
-              "id": null,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx"
+              "id": 59,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
             },
             {
-              "id": null,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx"
+              "id": 129,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx"
             }
           ],
           "failed": false,
@@ -4539,33 +4539,6 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-36"
-            },
-            {
-              "moduleId": 21,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 21,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 21,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-25"
             },
             {
@@ -4585,6 +4558,33 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "1:0-36"
+            },
+            {
+              "moduleId": 21,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-36"
+            },
+            {
+              "moduleId": 21,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 21,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 21,
@@ -4638,7 +4638,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:73-78"
+              "loc": "1:73-82"
             },
             {
               "moduleId": 21,
@@ -4647,7 +4647,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:73-82"
+              "loc": "1:73-78"
             },
             {
               "moduleId": 21,
@@ -6681,25 +6681,25 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 61,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 61,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-36"
+            },
+            {
+              "moduleId": 61,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 61,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 61,
@@ -18754,51 +18754,6 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-25"
         },
         {
@@ -18827,6 +18782,51 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-25"
+        },
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
         },
         {
           "moduleId": 21,
@@ -18862,7 +18862,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:73-78"
+          "loc": "1:73-82"
         },
         {
           "moduleId": 21,
@@ -18871,7 +18871,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:73-82"
+          "loc": "1:73-78"
         },
         {
           "moduleId": 21,
@@ -20905,7 +20905,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-25"
+          "loc": "1:0-36"
         },
         {
           "moduleId": 61,
@@ -20914,7 +20914,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
+          "loc": "1:0-25"
         },
         {
           "moduleId": 61,
@@ -34898,9 +34898,9 @@
         0,
         3
       ],
-      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-      "issuerId": null,
-      "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx",
+      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+      "issuerId": 129,
+      "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx",
       "issuerPath": [
         {
           "id": 63,
@@ -34918,14 +34918,14 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
         },
         {
-          "id": null,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx",
-          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx"
+          "id": 59,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
         },
         {
-          "id": null,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\Cover.jsx",
-          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx"
+          "id": 129,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\components\\Cover\\CoverSubPage.jsx",
+          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx"
         }
       ],
       "failed": false,
