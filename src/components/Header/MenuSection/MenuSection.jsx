@@ -15,12 +15,12 @@ const MenuSection = () => {
               </a>
             </li>
             <li>
-              <a href="habitaciones">
+              <a href="/habitaciones">
                 Habitaciones
               </a>
             </li>
             <li>
-              <a href="sobrenosotros">
+              <a href="/sobrenosotros">
                 Sobre Nosotros
               </a>
             </li>
@@ -47,7 +47,7 @@ const MenuSection = () => {
               </ul>
             </li>
             <li>
-              <a href="contacto">Contacto</a>
+              <a href="/contacto">Contacto</a>
             </li>
             <li>
               <div className="header-right-btn f-right  ml-30">

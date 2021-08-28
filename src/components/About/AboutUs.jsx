@@ -35,14 +35,14 @@ const AboutUs = ({text1, text2, text3}) => {
                   <img
                     className="images-about-us"
                     width="600px"
-                    src="images/salto-del-agrio.jpg"
+                    src="/images/salto-del-agrio.jpg"
                     alt=""
                     />
                 </div>
                 <div className="about-back-img">
                   <img
                     className="images-about-us"
-                    src="images/hotel-estructura.jpg"
+                    src="/images/hotel-estructura.jpg"
                     alt=""
                   />
                 </div>

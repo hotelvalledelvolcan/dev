@@ -4,16 +4,16 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.1c4b39bf.js (245 KiB)"
   ],
   "version": "4.46.0",
-  "hash": "7d1adb8721f692dca6c4",
-  "time": 5173,
-  "builtAt": 1630130554670,
+  "hash": "4d98ffc59c696dffd208",
+  "time": 3077,
+  "builtAt": 1630131330717,
   "publicPath": "/",
   "outputPath": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\dist",
   "assetsByChunkName": {
     "__react_static_root__/src/pages/404": "templates/__react_static_root__/src/pages/404.a7a15586.js",
     "__react_static_root__/src/pages/ContactPage.jsx": "templates/__react_static_root__/src/pages/ContactPage.jsx.b34343bc.js",
     "__react_static_root__/src/pages/RoomsPage.jsx": "templates/__react_static_root__/src/pages/RoomsPage.jsx.a9e9f7f6.js",
-    "main": "main.d04011cb.js",
+    "main": "main.620b8289.js",
     "styles": [
       "styles.ff699f26.css",
       "templates/styles.0c728392.js"
@@ -22,8 +22,8 @@
   },
   "assets": [
     {
-      "name": "main.d04011cb.js",
-      "size": 31317,
+      "name": "main.620b8289.js",
+      "size": 31326,
       "chunks": [
         3
       ],
@@ -130,7 +130,7 @@
       ],
       "assets": [
         "templates/vendors~main.1c4b39bf.js",
-        "main.d04011cb.js"
+        "main.620b8289.js"
       ],
       "children": {},
       "childAssets": {}
@@ -144,7 +144,7 @@
       ],
       "assets": [
         "templates/vendors~main.1c4b39bf.js",
-        "main.d04011cb.js"
+        "main.620b8289.js"
       ],
       "children": {},
       "childAssets": {}
@@ -643,14 +643,14 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 38102,
+      "size": 38111,
       "names": [
         "main"
       ],
       "files": [
-        "main.d04011cb.js"
+        "main.620b8289.js"
       ],
-      "hash": "8e52ff302db73892bbd5",
+      "hash": "d72ff07e1624d7cc5532",
       "siblings": [
         5
       ],
@@ -669,7 +669,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
           "index": 139,
           "index2": 134,
-          "size": 1727,
+          "size": 1729,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -723,7 +723,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/About/AboutUs",
-              "loc": "1:917-924"
+              "loc": "1:918-925"
             },
             {
               "moduleId": 34,
@@ -761,7 +761,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import React from\"react\";var AboutUs=function AboutUs(_ref){var text1=_ref.text1,text2=_ref.text2,text3=_ref.text3;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"div\",{className:\"about-low-area about-bg pt-padding\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-9 col-lg-9\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,text1)))),/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-between align-items-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-caption\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle section-tittle2\"},/*#__PURE__*/React.createElement(\"h2\",null,text2),/*#__PURE__*/React.createElement(\"p\",null,text3),/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"btn\"},\"Saber m\\xE1s\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-7 col-lg-7 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-img \"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-font-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",width:\"600px\",src:\"images/salto-del-agrio.jpg\",alt:\"\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"about-back-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",src:\"images/hotel-estructura.jpg\",alt:\"\"}))))))));};export default AboutUs;"
+          "source": "import React from\"react\";var AboutUs=function AboutUs(_ref){var text1=_ref.text1,text2=_ref.text2,text3=_ref.text3;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"div\",{className:\"about-low-area about-bg pt-padding\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-9 col-lg-9\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,text1)))),/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-between align-items-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-caption\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle section-tittle2\"},/*#__PURE__*/React.createElement(\"h2\",null,text2),/*#__PURE__*/React.createElement(\"p\",null,text3),/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"btn\"},\"Saber m\\xE1s\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-7 col-lg-7 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-img \"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-font-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",width:\"600px\",src:\"/images/salto-del-agrio.jpg\",alt:\"\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"about-back-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",src:\"/images/hotel-estructura.jpg\",alt:\"\"}))))))));};export default AboutUs;"
         },
         {
           "id": 22,
@@ -823,7 +823,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Gallery/Gallery",
-              "loc": "1:1608-1615"
+              "loc": "1:1609-1616"
             },
             {
               "moduleId": 34,
@@ -932,7 +932,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/VIdeoPreview/VideoPreview",
-              "loc": "1:1435-1447"
+              "loc": "1:1436-1448"
             },
             {
               "moduleId": 34,
@@ -1011,7 +1011,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Testimonials/Testimonials",
-              "loc": "1:1556-1568"
+              "loc": "1:1557-1569"
             },
             {
               "moduleId": 34,
@@ -1119,7 +1119,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Testimonials/Testimonials",
-                  "loc": "1:1556-1568"
+                  "loc": "1:1557-1569"
                 },
                 {
                   "moduleId": 34,
@@ -1349,7 +1349,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Blog/Miniature/BlogSectionMiniature",
-              "loc": "1:1487-1507"
+              "loc": "1:1488-1508"
             },
             {
               "moduleId": 34,
@@ -1448,7 +1448,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Blog/Miniature/BlogSectionMiniature",
-                  "loc": "1:1487-1507"
+                  "loc": "1:1488-1508"
                 },
                 {
                   "moduleId": 34,
@@ -1573,7 +1573,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
           "index": 140,
           "index2": 136,
-          "size": 2260,
+          "size": 2263,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1606,7 +1606,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Rooms/Rooms",
-              "loc": "1:1390-1395"
+              "loc": "1:1391-1396"
             },
             {
               "moduleId": 34,
@@ -1662,7 +1662,7 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
               "index": 140,
               "index2": 136,
-              "size": 1223,
+              "size": 1226,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1714,7 +1714,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Rooms/Rooms",
-                  "loc": "1:1390-1395"
+                  "loc": "1:1391-1396"
                 },
                 {
                   "moduleId": 34,
@@ -1761,7 +1761,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import React from\"react\";import Item from\"./Item\";var Rooms=function Rooms(){return/*#__PURE__*/React.createElement(\"section\",{className:\"popular-item-area fix\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container-fluid p-0\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,\"Nuestros Precios\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"d-flex justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row\"},/*#__PURE__*/React.createElement(Item,{title:\"Jornada sin pensi\\xF3n\",image:\"images/rooms/habitacion.jpg\",price:\"450\",description:\"Alojamiento con unicamente desayuno y merienda\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con pesi\\xF3n completa\",image:\"images/rooms/comedor.jpg\",price:\"450\",description:\"Alojamiento con las 4 comidas!\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con media pensi\\xF3n\",image:\"images/rooms/sala.jpg\",price:\"450\",description:\"Alojamiento con almuerzo o cena.\"})))));};export default Rooms;"
+              "source": "import React from\"react\";import Item from\"./Item\";var Rooms=function Rooms(){return/*#__PURE__*/React.createElement(\"section\",{className:\"popular-item-area fix\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container-fluid p-0\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,\"Nuestros Precios\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"d-flex justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row\"},/*#__PURE__*/React.createElement(Item,{title:\"Jornada sin pensi\\xF3n\",image:\"/images/rooms/habitacion.jpg\",price:\"450\",description:\"Alojamiento con unicamente desayuno y merienda\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con pesi\\xF3n completa\",image:\"/images/rooms/comedor.jpg\",price:\"450\",description:\"Alojamiento con las 4 comidas!\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con media pensi\\xF3n\",image:\"/images/rooms/sala.jpg\",price:\"450\",description:\"Alojamiento con almuerzo o cena.\"})))));};export default Rooms;"
             },
             {
               "id": null,
@@ -1835,7 +1835,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./Item",
-                  "loc": "1:892-896"
+                  "loc": "1:893-897"
                 },
                 {
                   "moduleId": null,
@@ -1844,7 +1844,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "./Item",
-                  "loc": "1:1062-1066"
+                  "loc": "1:1064-1068"
                 }
               ],
               "usedExports": [
@@ -1894,9 +1894,9 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
             },
             {
-              "id": 69,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx"
+              "id": 33,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
             },
             {
               "id": 40,
@@ -1963,7 +1963,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "index": 124,
           "index2": 146,
-          "size": 12294,
+          "size": 12297,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2648,7 +2648,7 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/MenuSection/MenuSection.jsx",
               "index": 130,
               "index2": 125,
-              "size": 1768,
+              "size": 1771,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -2716,7 +2716,7 @@
               ],
               "optimizationBailout": [],
               "depth": 5,
-              "source": "import React from\"react\";var MenuSection=function MenuSection(){return/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-6 col-lg-6 col-md-8\"},/*#__PURE__*/React.createElement(\"div\",{className:\"main-menu f-right d-none d-lg-block\"},/*#__PURE__*/React.createElement(\"nav\",null,/*#__PURE__*/React.createElement(\"ul\",{id:\"navigation\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/\"},\"Home\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"habitaciones\"},\"Habitaciones\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"sobrenosotros\"},\"Sobre Nosotros\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\"),/*#__PURE__*/React.createElement(\"ul\",{className:\"submenu\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog_details.html\"},\"Blog Details\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/elements.html\"},\"Elements\")))),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"contacto\"},\"Contacto\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"div\",{className:\"header-right-btn f-right  ml-30\"},/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"header-btn\"},\"Reserva\")))))));};export default MenuSection;"
+              "source": "import React from\"react\";var MenuSection=function MenuSection(){return/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-6 col-lg-6 col-md-8\"},/*#__PURE__*/React.createElement(\"div\",{className:\"main-menu f-right d-none d-lg-block\"},/*#__PURE__*/React.createElement(\"nav\",null,/*#__PURE__*/React.createElement(\"ul\",{id:\"navigation\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/\"},\"Home\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/habitaciones\"},\"Habitaciones\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/sobrenosotros\"},\"Sobre Nosotros\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\"),/*#__PURE__*/React.createElement(\"ul\",{className:\"submenu\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog_details.html\"},\"Blog Details\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/elements.html\"},\"Elements\")))),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/contacto\"},\"Contacto\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"div\",{className:\"header-right-btn f-right  ml-30\"},/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"header-btn\"},\"Reserva\")))))));};export default MenuSection;"
             },
             {
               "id": null,
@@ -2808,7 +2808,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "index": 148,
           "index2": 145,
-          "size": 1655,
+          "size": 1656,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2877,7 +2877,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import{useRouteData}from'react-static';var AboutUsPage=function AboutUsPage(){var _useRouteData=useRouteData(),posts=_useRouteData.posts;return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"El Hotel\",description:[\"Hotel Valle Del Volcán lleva más de 25 años acercandote \",/*#__PURE__*/React.createElement(\"br\",null),\" a las termas de Copahue\"],image:\"images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(AboutUs,{text1:\"Hotel valle del volc\\xE1n es un establecimiento tres estrellas atendido por sus due\\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.\",text2:\"Garantizar una relaci\\xF3n precio-calidad excelente.\",text3:\"Contamos con men\\xFA fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompa\\xF1ar de manera acorde el tratamiento termal.\"}),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(VideoPreview,null),/*#__PURE__*/React.createElement(BlogSectionMiniature,{posts:posts}),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default AboutUsPage;"
+          "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import{useRouteData}from'react-static';var AboutUsPage=function AboutUsPage(){var _useRouteData=useRouteData(),posts=_useRouteData.posts;return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"El Hotel\",description:[\"Hotel Valle Del Volcán lleva más de 25 años acercandote \",/*#__PURE__*/React.createElement(\"br\",null),\" a las termas de Copahue\"],image:\"/images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(AboutUs,{text1:\"Hotel valle del volc\\xE1n es un establecimiento tres estrellas atendido por sus due\\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.\",text2:\"Garantizar una relaci\\xF3n precio-calidad excelente.\",text3:\"Contamos con men\\xFA fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompa\\xF1ar de manera acorde el tratamiento termal.\"}),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(VideoPreview,null),/*#__PURE__*/React.createElement(BlogSectionMiniature,{posts:posts}),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default AboutUsPage;"
         },
         {
           "id": 34,
@@ -2938,7 +2938,7 @@
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/node_modules/@babel/runtime/helpers/defineProperty.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/BlogSectionMiniature.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
-            "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/coverAnimations.js because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx",
+            "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/coverAnimations.js because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Gallery/Gallery.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
             "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
@@ -3263,9 +3263,9 @@
           "chunks": [
             3
           ],
-          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-          "issuerId": 69,
-          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx",
+          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+          "issuerId": 33,
+          "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "issuerPath": [
             {
               "id": 71,
@@ -3283,9 +3283,9 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
             },
             {
-              "id": 69,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx"
+              "id": 33,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+              "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
             }
           ],
           "failed": false,
@@ -4216,7 +4216,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1529-1534"
+              "loc": "1:1530-1535"
             },
             {
               "moduleId": 21,
@@ -4225,7 +4225,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1597-1602"
+              "loc": "1:1598-1603"
             },
             {
               "moduleId": 22,
@@ -5107,7 +5107,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:872-877"
+              "loc": "1:873-878"
             },
             {
               "moduleId": 26,
@@ -5125,7 +5125,34 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1042-1047"
+              "loc": "1:1044-1049"
+            },
+            {
+              "moduleId": 29,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 29,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 29,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 29,
@@ -5161,34 +5188,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 29,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-36"
-            },
-            {
-              "moduleId": 29,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 29,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
             },
             {
               "moduleId": 29,
@@ -5539,7 +5539,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:571-576"
+              "loc": "1:572-577"
             },
             {
               "moduleId": 29,
@@ -5557,7 +5557,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:614-619"
+              "loc": "1:615-620"
             },
             {
               "moduleId": 29,
@@ -5611,7 +5611,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:693-698"
+              "loc": "1:694-699"
             },
             {
               "moduleId": 29,
@@ -5620,7 +5620,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:694-699"
+              "loc": "1:695-700"
             },
             {
               "moduleId": 29,
@@ -5638,7 +5638,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:736-741"
+              "loc": "1:738-743"
             },
             {
               "moduleId": 29,
@@ -5674,7 +5674,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:841-846"
+              "loc": "1:843-848"
             },
             {
               "moduleId": 29,
@@ -5692,7 +5692,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:901-906"
+              "loc": "1:903-908"
             },
             {
               "moduleId": 29,
@@ -5710,7 +5710,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:944-949"
+              "loc": "1:946-951"
             },
             {
               "moduleId": 29,
@@ -5728,7 +5728,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1050-1055"
+              "loc": "1:1052-1057"
             },
             {
               "moduleId": 29,
@@ -5746,7 +5746,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1093-1098"
+              "loc": "1:1095-1100"
             },
             {
               "moduleId": 29,
@@ -5764,7 +5764,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1215-1220"
+              "loc": "1:1217-1222"
             },
             {
               "moduleId": 29,
@@ -5782,7 +5782,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1258-1263"
+              "loc": "1:1260-1265"
             },
             {
               "moduleId": 29,
@@ -5800,7 +5800,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1374-1379"
+              "loc": "1:1376-1381"
             },
             {
               "moduleId": 29,
@@ -5818,7 +5818,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1417-1422"
+              "loc": "1:1419-1424"
             },
             {
               "moduleId": 29,
@@ -5836,7 +5836,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1485-1490"
+              "loc": "1:1488-1493"
             },
             {
               "moduleId": 29,
@@ -5845,7 +5845,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1528-1533"
+              "loc": "1:1531-1536"
             },
             {
               "moduleId": 29,
@@ -5863,7 +5863,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1613-1618"
+              "loc": "1:1616-1621"
             },
             {
               "moduleId": 29,
@@ -6403,7 +6403,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:897-902"
+              "loc": "1:898-903"
             },
             {
               "moduleId": 33,
@@ -6412,7 +6412,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1370-1375"
+              "loc": "1:1371-1376"
             },
             {
               "moduleId": 33,
@@ -6421,7 +6421,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1415-1420"
+              "loc": "1:1416-1421"
             },
             {
               "moduleId": 33,
@@ -6430,7 +6430,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1467-1472"
+              "loc": "1:1468-1473"
             },
             {
               "moduleId": 33,
@@ -6439,7 +6439,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1536-1541"
+              "loc": "1:1537-1542"
             },
             {
               "moduleId": 33,
@@ -6448,7 +6448,25 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1588-1593"
+              "loc": "1:1589-1594"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 34,
@@ -6458,24 +6476,6 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "1:0-36"
-            },
-            {
-              "moduleId": 34,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 34,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
             },
             {
               "moduleId": 34,
@@ -18440,7 +18440,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1529-1534"
+          "loc": "1:1530-1535"
         },
         {
           "moduleId": 21,
@@ -18449,7 +18449,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1597-1602"
+          "loc": "1:1598-1603"
         },
         {
           "moduleId": 22,
@@ -19331,7 +19331,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:872-877"
+          "loc": "1:873-878"
         },
         {
           "moduleId": 26,
@@ -19349,34 +19349,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1042-1047"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
+          "loc": "1:1044-1049"
         },
         {
           "moduleId": 29,
@@ -19413,6 +19386,33 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-36"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
         },
         {
           "moduleId": 29,
@@ -19763,7 +19763,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:571-576"
+          "loc": "1:572-577"
         },
         {
           "moduleId": 29,
@@ -19781,7 +19781,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:614-619"
+          "loc": "1:615-620"
         },
         {
           "moduleId": 29,
@@ -19835,7 +19835,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:693-698"
+          "loc": "1:694-699"
         },
         {
           "moduleId": 29,
@@ -19844,7 +19844,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:694-699"
+          "loc": "1:695-700"
         },
         {
           "moduleId": 29,
@@ -19862,7 +19862,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:736-741"
+          "loc": "1:738-743"
         },
         {
           "moduleId": 29,
@@ -19898,7 +19898,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:841-846"
+          "loc": "1:843-848"
         },
         {
           "moduleId": 29,
@@ -19916,7 +19916,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:901-906"
+          "loc": "1:903-908"
         },
         {
           "moduleId": 29,
@@ -19934,7 +19934,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:944-949"
+          "loc": "1:946-951"
         },
         {
           "moduleId": 29,
@@ -19952,7 +19952,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1050-1055"
+          "loc": "1:1052-1057"
         },
         {
           "moduleId": 29,
@@ -19970,7 +19970,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1093-1098"
+          "loc": "1:1095-1100"
         },
         {
           "moduleId": 29,
@@ -19988,7 +19988,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1215-1220"
+          "loc": "1:1217-1222"
         },
         {
           "moduleId": 29,
@@ -20006,7 +20006,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1258-1263"
+          "loc": "1:1260-1265"
         },
         {
           "moduleId": 29,
@@ -20024,7 +20024,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1374-1379"
+          "loc": "1:1376-1381"
         },
         {
           "moduleId": 29,
@@ -20042,7 +20042,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1417-1422"
+          "loc": "1:1419-1424"
         },
         {
           "moduleId": 29,
@@ -20060,7 +20060,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1485-1490"
+          "loc": "1:1488-1493"
         },
         {
           "moduleId": 29,
@@ -20069,7 +20069,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1528-1533"
+          "loc": "1:1531-1536"
         },
         {
           "moduleId": 29,
@@ -20087,7 +20087,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1613-1618"
+          "loc": "1:1616-1621"
         },
         {
           "moduleId": 29,
@@ -20627,7 +20627,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:897-902"
+          "loc": "1:898-903"
         },
         {
           "moduleId": 33,
@@ -20636,7 +20636,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1370-1375"
+          "loc": "1:1371-1376"
         },
         {
           "moduleId": 33,
@@ -20645,7 +20645,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1415-1420"
+          "loc": "1:1416-1421"
         },
         {
           "moduleId": 33,
@@ -20654,7 +20654,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1467-1472"
+          "loc": "1:1468-1473"
         },
         {
           "moduleId": 33,
@@ -20663,7 +20663,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1536-1541"
+          "loc": "1:1537-1542"
         },
         {
           "moduleId": 33,
@@ -20672,7 +20672,16 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1588-1593"
+          "loc": "1:1589-1594"
+        },
+        {
+          "moduleId": 34,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
         },
         {
           "moduleId": 34,
@@ -20691,15 +20700,6 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "1:0-36"
-        },
-        {
-          "moduleId": 34,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
         },
         {
           "moduleId": 34,
@@ -25117,7 +25117,7 @@
       "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx",
       "index": 139,
       "index2": 134,
-      "size": 1727,
+      "size": 1729,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -25171,7 +25171,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/About/AboutUs",
-          "loc": "1:917-924"
+          "loc": "1:918-925"
         },
         {
           "moduleId": 34,
@@ -25209,7 +25209,7 @@
       ],
       "optimizationBailout": [],
       "depth": 4,
-      "source": "import React from\"react\";var AboutUs=function AboutUs(_ref){var text1=_ref.text1,text2=_ref.text2,text3=_ref.text3;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"div\",{className:\"about-low-area about-bg pt-padding\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-9 col-lg-9\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,text1)))),/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-between align-items-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-caption\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle section-tittle2\"},/*#__PURE__*/React.createElement(\"h2\",null,text2),/*#__PURE__*/React.createElement(\"p\",null,text3),/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"btn\"},\"Saber m\\xE1s\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-7 col-lg-7 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-img \"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-font-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",width:\"600px\",src:\"images/salto-del-agrio.jpg\",alt:\"\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"about-back-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",src:\"images/hotel-estructura.jpg\",alt:\"\"}))))))));};export default AboutUs;"
+      "source": "import React from\"react\";var AboutUs=function AboutUs(_ref){var text1=_ref.text1,text2=_ref.text2,text3=_ref.text3;return/*#__PURE__*/React.createElement(React.Fragment,null,/*#__PURE__*/React.createElement(\"div\",{className:\"about-low-area about-bg pt-padding\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-9 col-lg-9\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,text1)))),/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-between align-items-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-caption\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle section-tittle2\"},/*#__PURE__*/React.createElement(\"h2\",null,text2),/*#__PURE__*/React.createElement(\"p\",null,text3),/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"btn\"},\"Saber m\\xE1s\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-7 col-lg-7 col-md-6\"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-img \"},/*#__PURE__*/React.createElement(\"div\",{className:\"about-font-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",width:\"600px\",src:\"/images/salto-del-agrio.jpg\",alt:\"\"})),/*#__PURE__*/React.createElement(\"div\",{className:\"about-back-img\"},/*#__PURE__*/React.createElement(\"img\",{className:\"images-about-us\",src:\"/images/hotel-estructura.jpg\",alt:\"\"}))))))));};export default AboutUs;"
     },
     {
       "id": 22,
@@ -25271,7 +25271,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/Gallery/Gallery",
-          "loc": "1:1608-1615"
+          "loc": "1:1609-1616"
         },
         {
           "moduleId": 34,
@@ -25380,7 +25380,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/VIdeoPreview/VideoPreview",
-          "loc": "1:1435-1447"
+          "loc": "1:1436-1448"
         },
         {
           "moduleId": 34,
@@ -25459,7 +25459,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/Testimonials/Testimonials",
-          "loc": "1:1556-1568"
+          "loc": "1:1557-1569"
         },
         {
           "moduleId": 34,
@@ -25567,7 +25567,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Testimonials/Testimonials",
-              "loc": "1:1556-1568"
+              "loc": "1:1557-1569"
             },
             {
               "moduleId": 34,
@@ -25797,7 +25797,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/Blog/Miniature/BlogSectionMiniature",
-          "loc": "1:1487-1507"
+          "loc": "1:1488-1508"
         },
         {
           "moduleId": 34,
@@ -25896,7 +25896,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Blog/Miniature/BlogSectionMiniature",
-              "loc": "1:1487-1507"
+              "loc": "1:1488-1508"
             },
             {
               "moduleId": 34,
@@ -26021,7 +26021,7 @@
       "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules",
       "index": 140,
       "index2": 136,
-      "size": 2260,
+      "size": 2263,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -26054,7 +26054,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
           "type": "harmony import specifier",
           "userRequest": "../components/Rooms/Rooms",
-          "loc": "1:1390-1395"
+          "loc": "1:1391-1396"
         },
         {
           "moduleId": 34,
@@ -26110,7 +26110,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
           "index": 140,
           "index2": 136,
-          "size": 1223,
+          "size": 1226,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -26162,7 +26162,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Rooms/Rooms",
-              "loc": "1:1390-1395"
+              "loc": "1:1391-1396"
             },
             {
               "moduleId": 34,
@@ -26209,7 +26209,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import React from\"react\";import Item from\"./Item\";var Rooms=function Rooms(){return/*#__PURE__*/React.createElement(\"section\",{className:\"popular-item-area fix\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container-fluid p-0\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,\"Nuestros Precios\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"d-flex justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row\"},/*#__PURE__*/React.createElement(Item,{title:\"Jornada sin pensi\\xF3n\",image:\"images/rooms/habitacion.jpg\",price:\"450\",description:\"Alojamiento con unicamente desayuno y merienda\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con pesi\\xF3n completa\",image:\"images/rooms/comedor.jpg\",price:\"450\",description:\"Alojamiento con las 4 comidas!\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con media pensi\\xF3n\",image:\"images/rooms/sala.jpg\",price:\"450\",description:\"Alojamiento con almuerzo o cena.\"})))));};export default Rooms;"
+          "source": "import React from\"react\";import Item from\"./Item\";var Rooms=function Rooms(){return/*#__PURE__*/React.createElement(\"section\",{className:\"popular-item-area fix\"},/*#__PURE__*/React.createElement(\"div\",{className:\"container-fluid p-0\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-4 col-lg-4\"},/*#__PURE__*/React.createElement(\"div\",{className:\"section-tittle text-center mb-60\"},/*#__PURE__*/React.createElement(\"h2\",null,\"Nuestros Precios\")))),/*#__PURE__*/React.createElement(\"div\",{className:\"d-flex justify-content-center\"},/*#__PURE__*/React.createElement(\"div\",{className:\"row\"},/*#__PURE__*/React.createElement(Item,{title:\"Jornada sin pensi\\xF3n\",image:\"/images/rooms/habitacion.jpg\",price:\"450\",description:\"Alojamiento con unicamente desayuno y merienda\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con pesi\\xF3n completa\",image:\"/images/rooms/comedor.jpg\",price:\"450\",description:\"Alojamiento con las 4 comidas!\"}),/*#__PURE__*/React.createElement(Item,{title:\"Jornada con media pensi\\xF3n\",image:\"/images/rooms/sala.jpg\",price:\"450\",description:\"Alojamiento con almuerzo o cena.\"})))));};export default Rooms;"
         },
         {
           "id": null,
@@ -26283,7 +26283,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
               "type": "harmony import specifier",
               "userRequest": "./Item",
-              "loc": "1:892-896"
+              "loc": "1:893-897"
             },
             {
               "moduleId": null,
@@ -26292,7 +26292,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx",
               "type": "harmony import specifier",
               "userRequest": "./Item",
-              "loc": "1:1062-1066"
+              "loc": "1:1064-1068"
             }
           ],
           "usedExports": [
@@ -26431,9 +26431,9 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
         },
         {
-          "id": 69,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx"
+          "id": 33,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
         },
         {
           "id": 40,
@@ -26500,7 +26500,7 @@
       "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
       "index": 124,
       "index2": 146,
-      "size": 12294,
+      "size": 12297,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27185,7 +27185,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/MenuSection/MenuSection.jsx",
           "index": 130,
           "index2": 125,
-          "size": 1768,
+          "size": 1771,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -27253,7 +27253,7 @@
           ],
           "optimizationBailout": [],
           "depth": 5,
-          "source": "import React from\"react\";var MenuSection=function MenuSection(){return/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-6 col-lg-6 col-md-8\"},/*#__PURE__*/React.createElement(\"div\",{className:\"main-menu f-right d-none d-lg-block\"},/*#__PURE__*/React.createElement(\"nav\",null,/*#__PURE__*/React.createElement(\"ul\",{id:\"navigation\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/\"},\"Home\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"habitaciones\"},\"Habitaciones\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"sobrenosotros\"},\"Sobre Nosotros\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\"),/*#__PURE__*/React.createElement(\"ul\",{className:\"submenu\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog_details.html\"},\"Blog Details\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/elements.html\"},\"Elements\")))),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"contacto\"},\"Contacto\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"div\",{className:\"header-right-btn f-right  ml-30\"},/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"header-btn\"},\"Reserva\")))))));};export default MenuSection;"
+          "source": "import React from\"react\";var MenuSection=function MenuSection(){return/*#__PURE__*/React.createElement(\"div\",{className:\"col-xl-6 col-lg-6 col-md-8\"},/*#__PURE__*/React.createElement(\"div\",{className:\"main-menu f-right d-none d-lg-block\"},/*#__PURE__*/React.createElement(\"nav\",null,/*#__PURE__*/React.createElement(\"ul\",{id:\"navigation\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/\"},\"Home\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/habitaciones\"},\"Habitaciones\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/sobrenosotros\"},\"Sobre Nosotros\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\"),/*#__PURE__*/React.createElement(\"ul\",{className:\"submenu\"},/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog.html\"},\"Blog\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/blog_details.html\"},\"Blog Details\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/elements.html\"},\"Elements\")))),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"a\",{href:\"/contacto\"},\"Contacto\")),/*#__PURE__*/React.createElement(\"li\",null,/*#__PURE__*/React.createElement(\"div\",{className:\"header-right-btn f-right  ml-30\"},/*#__PURE__*/React.createElement(\"a\",{href:\"https://preview.colorlib.com/theme/ecoho/index.html#\",className:\"header-btn\"},\"Reserva\")))))));};export default MenuSection;"
         },
         {
           "id": null,
@@ -27580,7 +27580,7 @@
       "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
       "index": 148,
       "index2": 145,
-      "size": 1655,
+      "size": 1656,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27649,7 +27649,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import{useRouteData}from'react-static';var AboutUsPage=function AboutUsPage(){var _useRouteData=useRouteData(),posts=_useRouteData.posts;return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"El Hotel\",description:[\"Hotel Valle Del Volcán lleva más de 25 años acercandote \",/*#__PURE__*/React.createElement(\"br\",null),\" a las termas de Copahue\"],image:\"images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(AboutUs,{text1:\"Hotel valle del volc\\xE1n es un establecimiento tres estrellas atendido por sus due\\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.\",text2:\"Garantizar una relaci\\xF3n precio-calidad excelente.\",text3:\"Contamos con men\\xFA fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompa\\xF1ar de manera acorde el tratamiento termal.\"}),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(VideoPreview,null),/*#__PURE__*/React.createElement(BlogSectionMiniature,{posts:posts}),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default AboutUsPage;"
+      "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import{useRouteData}from'react-static';var AboutUsPage=function AboutUsPage(){var _useRouteData=useRouteData(),posts=_useRouteData.posts;return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"El Hotel\",description:[\"Hotel Valle Del Volcán lleva más de 25 años acercandote \",/*#__PURE__*/React.createElement(\"br\",null),\" a las termas de Copahue\"],image:\"/images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(AboutUs,{text1:\"Hotel valle del volc\\xE1n es un establecimiento tres estrellas atendido por sus due\\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.\",text2:\"Garantizar una relaci\\xF3n precio-calidad excelente.\",text3:\"Contamos con men\\xFA fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompa\\xF1ar de manera acorde el tratamiento termal.\"}),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(VideoPreview,null),/*#__PURE__*/React.createElement(BlogSectionMiniature,{posts:posts}),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default AboutUsPage;"
     },
     {
       "id": 34,
@@ -27710,7 +27710,7 @@
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/node_modules/@babel/runtime/helpers/defineProperty.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/BlogSectionMiniature.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
-        "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/coverAnimations.js because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx",
+        "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/coverAnimations.js because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Gallery/Gallery.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
         "ModuleConcatenation bailout: Cannot concat with E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx because of E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
@@ -28432,9 +28432,9 @@
       "chunks": [
         3
       ],
-      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-      "issuerId": 69,
-      "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx",
+      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+      "issuerId": 33,
+      "issuerName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx",
       "issuerPath": [
         {
           "id": 71,
@@ -28452,9 +28452,9 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js"
         },
         {
-          "id": 69,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\ContactPage.jsx",
-          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx"
+          "id": 33,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\AboutUsPage.jsx",
+          "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx"
         }
       ],
       "failed": false,

@@ -863,17 +863,17 @@ var Rooms_Rooms = function Rooms() {
     className: "row"
   }, /*#__PURE__*/external_react_default.a.createElement(Rooms_Item, {
     title: "Jornada sin pensi\xF3n",
-    image: "images/rooms/habitacion.jpg",
+    image: "/images/rooms/habitacion.jpg",
     price: "450",
     description: "Alojamiento con unicamente desayuno y merienda"
   }), /*#__PURE__*/external_react_default.a.createElement(Rooms_Item, {
     title: "Jornada con pesi\xF3n completa",
-    image: "images/rooms/comedor.jpg",
+    image: "/images/rooms/comedor.jpg",
     price: "450",
     description: "Alojamiento con las 4 comidas!"
   }), /*#__PURE__*/external_react_default.a.createElement(Rooms_Item, {
     title: "Jornada con media pensi\xF3n",
-    image: "images/rooms/sala.jpg",
+    image: "/images/rooms/sala.jpg",
     price: "450",
     description: "Alojamiento con almuerzo o cena."
   })))));
@@ -1021,13 +1021,13 @@ var AboutUs = function AboutUs(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "images-about-us",
     width: "600px",
-    src: "images/salto-del-agrio.jpg",
+    src: "/images/salto-del-agrio.jpg",
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-back-img"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "images-about-us",
-    src: "images/hotel-estructura.jpg",
+    src: "/images/hotel-estructura.jpg",
     alt: ""
   }))))))));
 };
@@ -1323,9 +1323,9 @@ var MenuSection_MenuSection = function MenuSection() {
   }, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "/"
   }, "Home")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "habitaciones"
+    href: "/habitaciones"
   }, "Habitaciones")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "sobrenosotros"
+    href: "/sobrenosotros"
   }, "Sobre Nosotros")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://preview.colorlib.com/theme/ecoho/blog.html"
   }, "Blog"), /*#__PURE__*/external_react_default.a.createElement("ul", {
@@ -1337,7 +1337,7 @@ var MenuSection_MenuSection = function MenuSection() {
   }, "Blog Details")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
     href: "https://preview.colorlib.com/theme/ecoho/elements.html"
   }, "Elements")))), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "contacto"
+    href: "/contacto"
   }, "Contacto")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "header-right-btn f-right  ml-30"
   }, /*#__PURE__*/external_react_default.a.createElement("a", {
@@ -1804,7 +1804,7 @@ var AboutUsPage = function AboutUsPage() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"], {
     title: "El Hotel",
     description: ["Hotel Valle Del Volcán lleva más de 25 años acercandote ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " a las termas de Copahue"],
-    image: "images/centro-termal-portada.jpg"
+    image: "/images/centro-termal-portada.jpg"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_About_AboutUs__WEBPACK_IMPORTED_MODULE_1__[/* default */ "a"], {
     text1: "Hotel valle del volc\xE1n es un establecimiento tres estrellas atendido por sus due\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.",
     text2: "Garantizar una relaci\xF3n precio-calidad excelente.",
