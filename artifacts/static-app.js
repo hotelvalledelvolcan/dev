@@ -221,17 +221,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(23);
+var _propTypes = __webpack_require__(27);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(25);
+var _hoistNonReactStatics = __webpack_require__(29);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _context = __webpack_require__(24);
+var _context = __webpack_require__(28);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -1238,7 +1238,7 @@ var possibleConstructorReturn_ = __webpack_require__(38);
 var possibleConstructorReturn_default = /*#__PURE__*/__webpack_require__.n(possibleConstructorReturn_);
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/getPrototypeOf"
-var getPrototypeOf_ = __webpack_require__(20);
+var getPrototypeOf_ = __webpack_require__(24);
 var getPrototypeOf_default = /*#__PURE__*/__webpack_require__.n(getPrototypeOf_);
 
 // EXTERNAL MODULE: external "react"
@@ -1249,7 +1249,7 @@ var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_)
 var external_react_static_ = __webpack_require__(4);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(21);
+var router_ = __webpack_require__(25);
 
 // CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/InfoSection/Contact.jsx
 
@@ -1542,6 +1542,18 @@ var BackToTop_BackToTop = function BackToTop() {
 };
 
 /* harmony default export */ var components_BackToTop_BackToTop = (BackToTop_BackToTop);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules
+var HomePage = __webpack_require__(21);
+
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx
+var AboutUsPage = __webpack_require__(19);
+
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/ContactPage.jsx
+var ContactPage = __webpack_require__(20);
+
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules
+var RoomsPage = __webpack_require__(22);
+
 // CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/App.js
 
 
@@ -1552,6 +1564,10 @@ var BackToTop_BackToTop = function BackToTop() {
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
+
+
+
+
 
 
 
@@ -1764,94 +1780,6 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 
 /***/ }),
 /* 19 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-dom");
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/getPrototypeOf");
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports) {
-
-module.exports = require("@reach/router");
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports) {
-
-module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\browser");
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports) {
-
-module.exports = require("prop-types");
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : {
-    "default": obj
-  };
-}
-
-var ReportContext = _react2["default"].createContext({
-  report: function report() {}
-});
-
-exports["default"] = ReportContext;
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports) {
-
-module.exports = require("hoist-non-react-statics");
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/interopRequireDefault");
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
-
-/***/ }),
-/* 28 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404 - Oh no's! We couldn't find that page :("));
-});
-
-/***/ }),
-/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1897,7 +1825,7 @@ var AboutUsPage = function AboutUsPage() {
 /* harmony default export */ __webpack_exports__["default"] = (AboutUsPage);
 
 /***/ }),
-/* 30 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2025,7 +1953,7 @@ var ContactPage = function ContactPage() {
 /* harmony default export */ __webpack_exports__["default"] = (ContactPage);
 
 /***/ }),
-/* 31 */
+/* 21 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2186,7 +2114,7 @@ var HomePage_HomePage = function HomePage() {
 /* harmony default export */ var pages_HomePage = __webpack_exports__["default"] = (HomePage_HomePage);
 
 /***/ }),
-/* 32 */
+/* 22 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2297,6 +2225,94 @@ var RoomsPage_RoomsPage = function RoomsPage() {
 /* harmony default export */ var pages_RoomsPage = __webpack_exports__["default"] = (RoomsPage_RoomsPage);
 
 /***/ }),
+/* 23 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/getPrototypeOf");
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports) {
+
+module.exports = require("@reach/router");
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports) {
+
+module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\browser");
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports) {
+
+module.exports = require("prop-types");
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+var ReportContext = _react2["default"].createContext({
+  report: function report() {}
+});
+
+exports["default"] = ReportContext;
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports) {
+
+module.exports = require("hoist-non-react-statics");
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/interopRequireDefault");
+
+/***/ }),
+/* 31 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
+
+/***/ }),
+/* 32 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "404 - Oh no's! We couldn't find that page :("));
+});
+
+/***/ }),
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2312,7 +2328,7 @@ var _react = _interopRequireDefault(__webpack_require__(0));
 
 var _reactStatic = __webpack_require__(4);
 
-var _router = __webpack_require__(21);
+var _router = __webpack_require__(25);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2475,7 +2491,7 @@ module.exports = __webpack_require__(49);
 
 var plugins = __webpack_require__(41)["default"];
 
-var _require = __webpack_require__(22),
+var _require = __webpack_require__(26),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -2525,7 +2541,7 @@ var plugins = [{
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(22),
+var _require = __webpack_require__(26),
     registerTemplates = _require.registerTemplates;
 
 var _require2 = __webpack_require__(43),
@@ -2577,7 +2593,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2585,7 +2601,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(28);
+    return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404";
@@ -2595,7 +2611,7 @@ t_0.template = '__react_static_root__/src/pages/404.js';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/AboutUsPage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/AboutUsPage.jsx */).then(__webpack_require__.bind(null, 29))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 19))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2603,7 +2619,7 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/AboutUsPage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(29);
+    return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/AboutUsPage.jsx";
@@ -2613,7 +2629,7 @@ t_1.template = '__react_static_root__/src/pages/AboutUsPage.jsx';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/ContactPage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/ContactPage.jsx */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 20))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2621,7 +2637,7 @@ var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/ContactPage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(30);
+    return /*require.resolve*/(20);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/ContactPage.jsx";
@@ -2631,7 +2647,7 @@ t_2.template = '__react_static_root__/src/pages/ContactPage.jsx';
 var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/HomePage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/HomePage.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2639,7 +2655,7 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/HomePage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(31);
+    return /*require.resolve*/(21);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/HomePage.jsx";
@@ -2649,7 +2665,7 @@ t_3.template = '__react_static_root__/src/pages/HomePage.jsx';
 var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/RoomsPage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/RoomsPage.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2657,7 +2673,7 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/RoomsPage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(32);
+    return /*require.resolve*/(22);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/RoomsPage.jsx";
@@ -2982,11 +2998,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(23);
+var _propTypes = __webpack_require__(27);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _context = __webpack_require__(24);
+var _context = __webpack_require__(28);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -3069,7 +3085,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(25);
+var _hoistNonReactStatics = __webpack_require__(29);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -3131,9 +3147,9 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(26);
+var _interopRequireDefault = __webpack_require__(30);
 
-var _interopRequireWildcard = __webpack_require__(27);
+var _interopRequireWildcard = __webpack_require__(31);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3180,9 +3196,9 @@ module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modul
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(27);
+var _interopRequireWildcard = __webpack_require__(31);
 
-var _interopRequireDefault = __webpack_require__(26);
+var _interopRequireDefault = __webpack_require__(30);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3231,7 +3247,7 @@ module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(19);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(23);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(34);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);

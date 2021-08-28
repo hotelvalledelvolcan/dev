@@ -5,7 +5,10 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Spinner from "./components/Preloader/Spinner";
 import BackToTop from "./components/BackToTop/BackToTop";
-
+import HomePage from "./pages/HomePage";
+import AboutUsPage from "./pages/AboutUsPage";
+import ContactPage from "./pages/ContactPage";
+import RoomsPage from "./pages/RoomsPage";
 
 class App extends Component {
   render() {
