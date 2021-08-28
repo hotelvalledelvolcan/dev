@@ -20,7 +20,7 @@ const AboutUsPage = () => {
           <br />,
           " a las termas de Copahue",
         ]}
-        image="images/centro-termal-portada.jpg"
+        image="/images/centro-termal-portada.jpg"
       />
       <AboutUs
         text1="Hotel valle del volcán es un establecimiento tres estrellas atendido por sus dueños, con un trato personalizado y cuidado hacia todos nuestros clientes."

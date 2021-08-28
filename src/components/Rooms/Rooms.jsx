@@ -16,21 +16,21 @@ const Rooms = () => {
             <div className="row">
               <Item
                 title="Jornada sin pensión"
-                image="images/rooms/habitacion.jpg"
+                image="/images/rooms/habitacion.jpg"
                 price="450"
                 description="Alojamiento con unicamente desayuno y merienda"
               />
 
               <Item
                 title="Jornada con pesión completa"
-                image="images/rooms/comedor.jpg"
+                image="/images/rooms/comedor.jpg"
                 price="450"
                 description="Alojamiento con las 4 comidas!"
               />
 
               <Item
                 title="Jornada con media pensión"
-                image="images/rooms/sala.jpg"
+                image="/images/rooms/sala.jpg"
                 price="450"
                 description="Alojamiento con almuerzo o cena."
               />
