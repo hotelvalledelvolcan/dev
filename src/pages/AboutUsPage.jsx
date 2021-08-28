@@ -6,8 +6,11 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Gallery from "../components/Gallery/Gallery";
 import VideoPreview from "../components/VIdeoPreview/VideoPreview";
 import CoverSubPage from "../components/Cover/CoverSubPage";
+import { useRouteData } from 'react-static'
 
 const AboutUsPage = () => {
+  const  {posts}  = useRouteData()
+
   return (
     <main>
       <CoverSubPage
@@ -26,7 +29,7 @@ const AboutUsPage = () => {
       />
       <Rooms />
       <VideoPreview />
-      <BlogSectionMiniature />
+      <BlogSectionMiniature posts={posts}/>
       <Testimonials />
       <Gallery />
     </main>

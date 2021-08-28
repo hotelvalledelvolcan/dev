@@ -1,8 +1,7 @@
 import React from "react";
 import ArticleMiniature from "./ArticleMiniature";
-import { useRouteData } from 'react-static'
-const BlogSectionMiniature = () => {
-  const  {posts}  = useRouteData()
+const BlogSectionMiniature = ({posts}) => {
+  
 
   return (
     <section className="home-blog section-padding40 fix">
@@ -17,7 +16,7 @@ const BlogSectionMiniature = () => {
         <div className="row">
 
           {
-            posts.map((post, index) => {
+            posts?.map((post, index) => {
               return <ArticleMiniature key={index}
               title={post.title}
               image={post.image}

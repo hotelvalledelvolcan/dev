@@ -14,7 +14,7 @@ export default {
         image: post.image,
         description: post.description
       }))
-
+      console.log(minimalPosts)
 
     const allPosts = []
 

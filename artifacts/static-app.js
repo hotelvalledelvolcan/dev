@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 43);
+/******/ 	return __webpack_require__(__webpack_require__.s = 39);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -142,6 +142,12 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-static");
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -186,7 +192,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(49);
+var _requireUniversalModule = __webpack_require__(45);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -201,7 +207,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(51);
+var _reportChunks = __webpack_require__(47);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -215,23 +221,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(29);
+var _propTypes = __webpack_require__(25);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(31);
+var _hoistNonReactStatics = __webpack_require__(27);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _context = __webpack_require__(30);
+var _context = __webpack_require__(26);
 
 var _context2 = _interopRequireDefault(_context);
 
 var _utils = __webpack_require__(18);
 
-var _helpers = __webpack_require__(52);
+var _helpers = __webpack_require__(48);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -615,10 +621,10 @@ function universal(asyncModule) {
     return UniversalComponent;
   }(_react2["default"].Component), _class.contextType = _context2["default"], _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(48)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(44)(module)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -674,52 +680,68 @@ var Gallery = function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "my-slider-photos"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-invierno.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-invierno.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/laguna-verde.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/laguna-verde.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-2.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-2.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-3.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-3.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/salto-del-agrio.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/salto-del-agrio.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-nevadas.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-nevadas.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/copahue-verano.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/copahue-verano.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-4.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-4.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/salto-del-gigante.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/salto-del-gigante.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-cartel.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-cartel.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-puente.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-puente.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-5.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-5.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-nieve.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-nieve.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/cartel-bienvenida.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/cartel-bienvenida.jpg",
     alt: ""
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "images/carousel/termas-6.jpg",
+    className: "image-gallery",
+    src: "/images/carousel/termas-6.jpg",
     alt: ""
   }))))))));
 };
@@ -727,7 +749,7 @@ var Gallery = function Gallery() {
 /* harmony default export */ __webpack_exports__["a"] = (Gallery);
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -777,7 +799,7 @@ var CoverSubPage = function CoverSubPage(_ref) {
 /* harmony default export */ __webpack_exports__["a"] = (CoverSubPage);
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -786,7 +808,7 @@ var CoverSubPage = function CoverSubPage(_ref) {
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Rooms/Item.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Item.jsx
 
 
 var Item_Item = function Item(_ref) {
@@ -805,6 +827,7 @@ var Item_Item = function Item(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "items-img"
   }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    className: "image-rooms",
     src: image,
     alt: ""
   })), /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -819,7 +842,7 @@ var Item_Item = function Item(_ref) {
 };
 
 /* harmony default export */ var Rooms_Item = (Item_Item);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Rooms/Rooms.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx
 
 
 
@@ -859,7 +882,7 @@ var Rooms_Rooms = function Rooms() {
 /* harmony default export */ var components_Rooms_Rooms = __webpack_exports__["a"] = (Rooms_Rooms);
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -868,7 +891,7 @@ var Rooms_Rooms = function Rooms() {
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Testimonials/Item.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Item.jsx
 
 
 var Item_Item = function Item() {
@@ -883,7 +906,7 @@ var Item_Item = function Item() {
 };
 
 /* harmony default export */ var Testimonials_Item = (Item_Item);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Testimonials/Testimonials.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx
 
 
 
@@ -933,7 +956,7 @@ var Testimonials_Testimonials = function Testimonials() {
 /* harmony default export */ var components_Testimonials_Testimonials = __webpack_exports__["a"] = (Testimonials_Testimonials);
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -947,7 +970,7 @@ var _utils = __webpack_require__(18);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(50)("" + id);
+    return __webpack_require__(46)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -956,7 +979,7 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -996,13 +1019,15 @@ var AboutUs = function AboutUs(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-font-img"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "images-about-us",
     width: "600px",
-    src: "images/hotel-estructura.jpg",
+    src: "images/salto-del-agrio.jpg",
     alt: ""
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "about-back-img"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "images/salto-del-agrio.jpg",
+    className: "images-about-us",
+    src: "images/hotel-estructura.jpg",
     alt: ""
   }))))))));
 };
@@ -1010,7 +1035,7 @@ var AboutUs = function AboutUs(_ref) {
 /* harmony default export */ __webpack_exports__["a"] = (AboutUs);
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1049,7 +1074,7 @@ var VideoPreview = function VideoPreview() {
 /* harmony default export */ __webpack_exports__["a"] = (VideoPreview);
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1058,7 +1083,7 @@ var VideoPreview = function VideoPreview() {
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Blog/Miniature/ArticleMiniature.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/ArticleMiniature.jsx
 
 
 var ArticleMiniature_ArticleMiniature = function ArticleMiniature(_ref) {
@@ -1072,6 +1097,7 @@ var ArticleMiniature_ArticleMiniature = function ArticleMiniature(_ref) {
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "blog-img"
   }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    className: "image-blog",
     src: image,
     alt: ""
   })), /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -1082,11 +1108,12 @@ var ArticleMiniature_ArticleMiniature = function ArticleMiniature(_ref) {
 };
 
 /* harmony default export */ var Miniature_ArticleMiniature = (ArticleMiniature_ArticleMiniature);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Blog/Miniature/BlogSectionMiniature.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/BlogSectionMiniature.jsx
 
 
 
-var BlogSectionMiniature_BlogSectionMiniature = function BlogSectionMiniature() {
+var BlogSectionMiniature_BlogSectionMiniature = function BlogSectionMiniature(_ref) {
+  var posts = _ref.posts;
   return /*#__PURE__*/external_react_default.a.createElement("section", {
     className: "home-blog section-padding40 fix"
   }, /*#__PURE__*/external_react_default.a.createElement("div", {
@@ -1099,28 +1126,17 @@ var BlogSectionMiniature_BlogSectionMiniature = function BlogSectionMiniature() 
     className: "section-tittle text-center mb-60"
   }, /*#__PURE__*/external_react_default.a.createElement("h2", null, "Nuestro Blog")))), /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "row"
-  }, /*#__PURE__*/external_react_default.a.createElement(Miniature_ArticleMiniature, {
-    title: "Termas de Copahue seguras y\r responsables",
-    image: "images/blog/barro.jpg",
-    description: "La temporada termal comenz\xF3 en diciembre, con una apertura diferente y con cambios debido a la\r pandemia"
-  }), /*#__PURE__*/external_react_default.a.createElement(Miniature_ArticleMiniature, {
-    title: "Copahue, un destino de energ\xEDa en un\r para\xEDso volc\xE1nico",
-    image: "images/blog/barro2.jpg",
-    description: "Uno de los centros termales m\xE1s importantes del mundo readecu\xF3 sus protocolos e instalaciones para\r una estad\xEDa segura en el medio de la pandemia por coronavirus."
-  }), /*#__PURE__*/external_react_default.a.createElement(Miniature_ArticleMiniature, {
-    title: "La historia de las termas de\r Copahue",
-    image: "images/blog/termas.jpg",
-    description: "Copahue en mapuche significa \u201Clugar de azufre\u201D y fueron los indios Pehuenches quienes descubrieron\r que las emanaciones del suelo ten\xEDan propiedades curativas. "
+  }, posts === null || posts === void 0 ? void 0 : posts.map(function (post, index) {
+    return /*#__PURE__*/external_react_default.a.createElement(Miniature_ArticleMiniature, {
+      key: index,
+      title: post.title,
+      image: post.image,
+      description: post.description
+    });
   }))));
 };
 
 /* harmony default export */ var Miniature_BlogSectionMiniature = __webpack_exports__["a"] = (BlogSectionMiniature_BlogSectionMiniature);
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-static");
 
 /***/ }),
 /* 14 */
@@ -1204,35 +1220,342 @@ var doAnimations = function doAnimations(elements) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(39);
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(40);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(41);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(42);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(26);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(13);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(27);
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(24);
-/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(21);
-/* harmony import */ var _components_Preloader_Spinner__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(22);
-/* harmony import */ var _components_BackToTop_BackToTop__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(23);
-/* harmony import */ var _pages_HomePage__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(20);
-/* harmony import */ var _pages_AboutUsPage__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(19);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/classCallCheck"
+var classCallCheck_ = __webpack_require__(35);
+var classCallCheck_default = /*#__PURE__*/__webpack_require__.n(classCallCheck_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/createClass"
+var createClass_ = __webpack_require__(36);
+var createClass_default = /*#__PURE__*/__webpack_require__.n(createClass_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/inherits"
+var inherits_ = __webpack_require__(37);
+var inherits_default = /*#__PURE__*/__webpack_require__.n(inherits_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/possibleConstructorReturn"
+var possibleConstructorReturn_ = __webpack_require__(38);
+var possibleConstructorReturn_default = /*#__PURE__*/__webpack_require__.n(possibleConstructorReturn_);
+
+// EXTERNAL MODULE: external "@babel/runtime/helpers/getPrototypeOf"
+var getPrototypeOf_ = __webpack_require__(22);
+var getPrototypeOf_default = /*#__PURE__*/__webpack_require__.n(getPrototypeOf_);
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "react-static"
+var external_react_static_ = __webpack_require__(4);
+
+// EXTERNAL MODULE: external "@reach/router"
+var router_ = __webpack_require__(23);
+
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/InfoSection/Contact.jsx
+
+
+var Contact_Contact = function Contact() {
+  return /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "+54 9 2942 66-9435"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Herrero Ducloux 120, Copahue Q8348AGA Argentina"));
+};
+
+/* harmony default export */ var InfoSection_Contact = (Contact_Contact);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/InfoSection/Logo.jsx
+
+
+var Logo_Logo = function Logo() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "logo"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/"
+  }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    src: "logo-titulo.png",
+    alt: "",
+    width: "400px"
+  })));
+};
+
+/* harmony default export */ var InfoSection_Logo = (Logo_Logo);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/InfoSection/InfoSection.jsx
+
+
+
+
+var InfoSection_InfoSection = function InfoSection() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "header-info-left d-none d-sm-block"
+  }, /*#__PURE__*/external_react_default.a.createElement(InfoSection_Contact, null));
+};
+
+/* harmony default export */ var Header_InfoSection_InfoSection = (InfoSection_InfoSection);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/MenuSection/MenuMobile.jsx
+
+
+var MenuMobile_MenuMobile = function MenuMobile() {
+  Object(external_react_["useEffect"])(function () {
+    var menu = $("ul#navigation");
+
+    if (menu.length) {
+      menu.slicknav({
+        prependTo: ".mobile_menu",
+        closedSymbol: "+",
+        openedSymbol: "-"
+      });
+    }
+  }, []);
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-12"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "mobile_menu d-block d-lg-none"
+  }));
+};
+
+/* harmony default export */ var MenuSection_MenuMobile = (MenuMobile_MenuMobile);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/MenuSection/MenuSection.jsx
+
+
+var MenuSection_MenuSection = function MenuSection() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-6 col-lg-6 col-md-8"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "main-menu f-right d-none d-lg-block"
+  }, /*#__PURE__*/external_react_default.a.createElement("nav", null, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    id: "navigation"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/"
+  }, "Home")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "habitaciones"
+  }, "Habitaciones")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "sobrenosotros"
+  }, "Sobre Nosotros")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/blog.html"
+  }, "Blog"), /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "submenu"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/blog.html"
+  }, "Blog")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/blog_details.html"
+  }, "Blog Details")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/elements.html"
+  }, "Elements")))), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "contacto"
+  }, "Contacto")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "header-right-btn f-right  ml-30"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/index.html#",
+    className: "header-btn"
+  }, "Reserva")))))));
+};
+
+/* harmony default export */ var Header_MenuSection_MenuSection = (MenuSection_MenuSection);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Header/Header.jsx
 
 
 
 
 
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
+var Header_Header = function Header() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "header-area header_area"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "main-header header-sticky sticky-bar"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "container-fluid"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "row align-items-center"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-6 col-lg-6"
+  }, /*#__PURE__*/external_react_default.a.createElement(InfoSection_Logo, null), /*#__PURE__*/external_react_default.a.createElement(Header_InfoSection_InfoSection, null)), /*#__PURE__*/external_react_default.a.createElement(Header_MenuSection_MenuSection, null), /*#__PURE__*/external_react_default.a.createElement(MenuSection_MenuMobile, null)))));
+};
+
+/* harmony default export */ var components_Header_Header = (Header_Header);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Footer/Footer.jsx
+
+
+var Footer_Footer = function Footer() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-wrapper"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-area footer-padding"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "row justify-content-between"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-4 col-lg-4 col-md-6 col-sm-8"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "single-footer-caption mb-50"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "single-footer-caption mb-30"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-logo mb-35"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/"
+  }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    src: "logo.png",
+    alt: ""
+  }))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-tittle"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-pera"
+  }, /*#__PURE__*/external_react_default.a.createElement("p", null, "Hotel Valle Del Volc\xE1n lleva m\xE1s de 25 a\xF1os acercandote a las termas de Copahue.")), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-social"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://twitter.com/valledelvolcan"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fab fa-twitter-square"
+  })), /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://www.facebook.com/clubhotelvalledelvolcan"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fab fa-facebook-square"
+  })), /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://api.whatsapp.com/send?phone=5492942669435"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fab fa-whatsapp"
+  })), /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://ar.pinterest.com/copahueclub"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fab fa-pinterest-square"
+  }))))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-2 col-lg-2 col-md-4 col-sm-6"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "single-footer-caption mb-50"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-tittle"
+  }, /*#__PURE__*/external_react_default.a.createElement("h4", null, "Menu"), /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "sobrenosotros"
+  }, "Sobre Nosotros")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "habitaciones"
+  }, "Nuestras Habitaciones")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "contacto"
+  }, "Reserva")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
+  }, "Blog")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "contacto"
+  }, "Contacto")))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-3 col-lg-3 col-md-6 col-sm-8"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "single-footer-caption mb-50"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-tittle mb-20"
+  }, /*#__PURE__*/external_react_default.a.createElement("h4", null, "Direcci\xF3n"), /*#__PURE__*/external_react_default.a.createElement("p", null, "Herrero Ducloux 120, Copahue Q8348AGA Argentina")), /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "mb-20"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "number"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
+  }, "+54 9 2942 66-9435")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "number2"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
+  }, "contact@carwash.com")))))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-bottom-area"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-border"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-xl-12 "
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer-copy-right text-center"
+  }, /*#__PURE__*/external_react_default.a.createElement("p", null, "Copyright \xA9", /*#__PURE__*/external_react_default.a.createElement("script", null, "document.write(new Date().getFullYear());"), "2021 All rights reserved | This template is made with", " ", /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fa fa-heart color-danger",
+    "aria-hidden": "true"
+  }), " ", "by", " ", /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://colorlib.com/",
+    target: "_blank",
+    rel: "nofollow noopener"
+  }, "Colorlib")))))))));
+};
+
+/* harmony default export */ var components_Footer_Footer = (Footer_Footer);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Preloader/Spinner.jsx
+
+
+var Spinner_Spinner = function Spinner() {
+  Object(external_react_["useEffect"])(function () {
+    /* 1. Proloder */
+    $(window).on("load", function () {
+      $("#preloader-active").delay(450).fadeOut("slow");
+      $("body").delay(450).css({
+        overflow: "visible"
+      });
+    });
+  }, []);
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    id: "preloader-active",
+    style: {
+      display: "none"
+    }
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "preloader d-flex align-items-center justify-content-center"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "preloader-inner position-relative"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "preloader-circle"
+  }), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "preloader-img pere-text"
+  }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    src: "data:image/webp;base64,UklGRnoAAABXRUJQVlA4TG4AAAAvFkAFEEcgECB49L9ig0DSxvP+Pd7yBIIQueT/NggEKPh/ygQeeFKAWsHD+aTyDW82gFFsW20ekLYMff8tEG/fQQbhHQxE9H8CdPUG0IGiXePP+alprUXlS8nWALy7EdFR01qrCjP7GoC4hi53AA==",
+    alt: ""
+  })))));
+};
+
+/* harmony default export */ var Preloader_Spinner = (Spinner_Spinner);
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/BackToTop/BackToTop.jsx
+
+
+var BackToTop_BackToTop = function BackToTop() {
+  Object(external_react_["useEffect"])(function () {
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll < 400) {
+        $(".header-sticky").removeClass("sticky-bar");
+        $("#back-top").fadeOut(500);
+      } else {
+        $(".header-sticky").addClass("sticky-bar");
+        $("#back-top").fadeIn(500);
+      }
+    }); // Scroll Up
+
+    $("#back-top a").on("click", function () {
+      $("body,html").animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  }, []);
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    id: "back-top",
+    style: {
+      display: "none"
+    }
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    title: "Go to Top",
+    href: "#"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fas fa-level-up-alt"
+  })));
+};
+
+/* harmony default export */ var components_BackToTop_BackToTop = (BackToTop_BackToTop);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules
+var HomePage = __webpack_require__(20);
+
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/AboutUsPage.jsx
+var AboutUsPage = __webpack_require__(19);
+
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/App.js
+
+
+
+
+
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = getPrototypeOf_default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = getPrototypeOf_default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return possibleConstructorReturn_default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 
@@ -1246,34 +1569,34 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
-var App = /*#__PURE__*/function (_Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(App, _Component);
+var App_App = /*#__PURE__*/function (_Component) {
+  inherits_default()(App, _Component);
 
   var _super = _createSuper(App);
 
   function App() {
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, App);
+    classCallCheck_default()(this, App);
 
     return _super.apply(this, arguments);
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(App, [{
+  createClass_default()(App, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_6__["Root"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement("div", {
         style: {
           overflow: "visible"
         }
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Preloader_Spinner__WEBPACK_IMPORTED_MODULE_10__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Header_Header__WEBPACK_IMPORTED_MODULE_8__[/* default */ "a"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Suspense, {
-        fallback: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("em", null, "Loading...")
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_static__WEBPACK_IMPORTED_MODULE_6__["Routes"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_9__[/* default */ "a"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_BackToTop_BackToTop__WEBPACK_IMPORTED_MODULE_11__[/* default */ "a"], null)));
+      }, /*#__PURE__*/external_react_default.a.createElement(Preloader_Spinner, null), /*#__PURE__*/external_react_default.a.createElement("header", null, /*#__PURE__*/external_react_default.a.createElement(components_Header_Header, null)), /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
+        fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
+      }, /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], null)), /*#__PURE__*/external_react_default.a.createElement("footer", null, /*#__PURE__*/external_react_default.a.createElement(components_Footer_Footer, null)), /*#__PURE__*/external_react_default.a.createElement(components_BackToTop_BackToTop, null)));
     }
   }]);
 
   return App;
-}(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
+}(external_react_["Component"]);
 
-/* harmony default export */ __webpack_exports__["a"] = (App);
+/* harmony default export */ var src_App = __webpack_exports__["a"] = (App_App);
 
 /***/ }),
 /* 17 */
@@ -1319,7 +1642,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(9);
+var _requireById = __webpack_require__(10);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -1455,13 +1778,16 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_About_AboutUs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
-/* harmony import */ var _components_Rooms_Rooms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
-/* harmony import */ var _components_Blog_Miniature_BlogSectionMiniature__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(12);
-/* harmony import */ var _components_Testimonials_Testimonials__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
-/* harmony import */ var _components_Gallery_Gallery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(5);
-/* harmony import */ var _components_VIdeoPreview_VideoPreview__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(11);
-/* harmony import */ var _components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(6);
+/* harmony import */ var _components_About_AboutUs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(11);
+/* harmony import */ var _components_Rooms_Rooms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var _components_Blog_Miniature_BlogSectionMiniature__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
+/* harmony import */ var _components_Testimonials_Testimonials__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9);
+/* harmony import */ var _components_Gallery_Gallery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(6);
+/* harmony import */ var _components_VIdeoPreview_VideoPreview__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(12);
+/* harmony import */ var _components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(7);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(4);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_8__);
+
 
 
 
@@ -1472,6 +1798,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var AboutUsPage = function AboutUsPage() {
+  var _useRouteData = Object(react_static__WEBPACK_IMPORTED_MODULE_8__["useRouteData"])(),
+      posts = _useRouteData.posts;
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_7__[/* default */ "a"], {
     title: "El Hotel",
     description: ["Hotel Valle Del Volcán lleva más de 25 años acercandote ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " a las termas de Copahue"],
@@ -1480,7 +1809,9 @@ var AboutUsPage = function AboutUsPage() {
     text1: "Hotel valle del volc\xE1n es un establecimiento tres estrellas atendido por sus due\xF1os, con un trato personalizado y cuidado hacia todos nuestros clientes.",
     text2: "Garantizar una relaci\xF3n precio-calidad excelente.",
     text3: "Contamos con men\xFA fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompa\xF1ar de manera acorde el tratamiento termal."
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Rooms_Rooms__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VIdeoPreview_VideoPreview__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Blog_Miniature_BlogSectionMiniature__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials_Testimonials__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery_Gallery__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Rooms_Rooms__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_VIdeoPreview_VideoPreview__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Blog_Miniature_BlogSectionMiniature__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], {
+    posts: posts
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Testimonials_Testimonials__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Gallery_Gallery__WEBPACK_IMPORTED_MODULE_5__[/* default */ "a"], null));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AboutUsPage);
@@ -1497,17 +1828,11 @@ __webpack_require__.r(__webpack_exports__);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/Header.jsx + 5 modules
-var Header = __webpack_require__(24);
-
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Footer/Footer.jsx
-var Footer = __webpack_require__(21);
-
 // EXTERNAL MODULE: external "@babel/runtime/helpers/defineProperty"
 var defineProperty_ = __webpack_require__(14);
 var defineProperty_default = /*#__PURE__*/__webpack_require__.n(defineProperty_);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Cover/CoverImage.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverImage.jsx
 
 
 
@@ -1515,7 +1840,7 @@ var CoverImage_CoverImage = function CoverImage() {
   return /*#__PURE__*/external_react_default.a.createElement("div", {
     className: "hero-img"
   }, /*#__PURE__*/external_react_default.a.createElement("img", defineProperty_default()({
-    src: "images/centro-termal-portada.jpg",
+    src: "/images/Centro-termal-portada.png",
     alt: "",
     className: "header-image",
     "data-animation": "fadeInRight",
@@ -1524,7 +1849,7 @@ var CoverImage_CoverImage = function CoverImage() {
 };
 
 /* harmony default export */ var Cover_CoverImage = (CoverImage_CoverImage);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Cover/CoverPage.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverPage.jsx
 
 
 var CoverPage_CoverPage = function CoverPage() {
@@ -1563,10 +1888,10 @@ var CoverPage_CoverPage = function CoverPage() {
 };
 
 /* harmony default export */ var Cover_CoverPage = (CoverPage_CoverPage);
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Cover/coverAnimations.js
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/coverAnimations.js
 var coverAnimations = __webpack_require__(15);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Cover/Cover.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/Cover.jsx
 
 
 
@@ -1605,34 +1930,28 @@ var Cover_Cover = function Cover() {
 };
 
 /* harmony default export */ var components_Cover_Cover = (Cover_Cover);
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/About/AboutUs.jsx
-var AboutUs = __webpack_require__(10);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx
+var AboutUs = __webpack_require__(11);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Rooms/Rooms.jsx + 1 modules
-var Rooms = __webpack_require__(7);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules
+var Rooms = __webpack_require__(8);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Preloader/Spinner.jsx
-var Spinner = __webpack_require__(22);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/BlogSectionMiniature.jsx + 1 modules
+var BlogSectionMiniature = __webpack_require__(13);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Blog/Miniature/BlogSectionMiniature.jsx + 1 modules
-var BlogSectionMiniature = __webpack_require__(12);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules
+var Testimonials = __webpack_require__(9);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Testimonials/Testimonials.jsx + 1 modules
-var Testimonials = __webpack_require__(8);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Gallery/Gallery.jsx
+var Gallery = __webpack_require__(6);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Gallery/Gallery.jsx
-var Gallery = __webpack_require__(5);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/VIdeoPreview/VideoPreview.jsx
+var VideoPreview = __webpack_require__(12);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/VIdeoPreview/VideoPreview.jsx
-var VideoPreview = __webpack_require__(11);
+// EXTERNAL MODULE: external "react-static"
+var external_react_static_ = __webpack_require__(4);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/BackToTop/BackToTop.jsx
-var BackToTop = __webpack_require__(23);
-
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/pages/HomePage.jsx
-
-
-
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx
 
 
 
@@ -1644,370 +1963,52 @@ var BackToTop = __webpack_require__(23);
 
 
 var HomePage_HomePage = function HomePage() {
+  var _useRouteData = Object(external_react_static_["useRouteData"])(),
+      posts = _useRouteData.posts;
+
   return /*#__PURE__*/external_react_default.a.createElement("main", null, /*#__PURE__*/external_react_default.a.createElement(components_Cover_Cover, null), /*#__PURE__*/external_react_default.a.createElement(AboutUs["a" /* default */], {
     text1: "Las termas de Copahue son las \xFAnicas termas en el mundo que reunen una innumerable cantidad de recursos minerales naturales.",
     text2: "Cercan\xEDa y comodidad para disfrutar Copahue",
     text3: "Junto al volc\xE1n copahue hacen una combinaci\xF3n perfecta para que Copahue sea un para\xEDso termal."
-  }), /*#__PURE__*/external_react_default.a.createElement(Rooms["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(VideoPreview["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(BlogSectionMiniature["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(Testimonials["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(Gallery["a" /* default */], null));
+  }), /*#__PURE__*/external_react_default.a.createElement(Rooms["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(VideoPreview["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(BlogSectionMiniature["a" /* default */], {
+    posts: posts
+  }), /*#__PURE__*/external_react_default.a.createElement(Testimonials["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(Gallery["a" /* default */], null));
 };
 
 /* harmony default export */ var pages_HomePage = __webpack_exports__["default"] = (HomePage_HomePage);
 
 /***/ }),
 /* 21 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var Footer = function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-wrapper"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-area footer-padding"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row justify-content-between"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-xl-4 col-lg-4 col-md-6 col-sm-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single-footer-caption mb-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single-footer-caption mb-30"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-logo mb-35"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "logo.png",
-    alt: ""
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-tittle"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-pera"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hotel Valle Del Volc\xE1n lleva m\xE1s de 25 a\xF1os acercandote a las termas de Copahue.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-social"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://twitter.com/valledelvolcan"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-twitter-square"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.facebook.com/clubhotelvalledelvolcan"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-facebook-square"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://api.whatsapp.com/send?phone=5492942669435"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    "class": "fab fa-whatsapp"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://ar.pinterest.com/copahueclub"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fab fa-pinterest-square"
-  }))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-xl-2 col-lg-2 col-md-4 col-sm-6"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single-footer-caption mb-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-tittle"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Menu"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "sobrenosotros"
-  }, "Sobre Nosotros")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "habitaciones"
-  }, "Nuestras Habitaciones")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "contacto"
-  }, "Reserva")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
-  }, "Blog")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "contacto"
-  }, "Contacto")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-xl-3 col-lg-3 col-md-6 col-sm-8"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "single-footer-caption mb-50"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-tittle mb-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Direcci\xF3n"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Herrero Ducloux 120, Copahue Q8348AGA Argentina")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "mb-20"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "number"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
-  }, "+54 9 2942 66-9435")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "number2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/index.html#"
-  }, "contact@carwash.com")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-bottom-area"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-border"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "col-xl-12 "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer-copy-right text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Copyright \xA9", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", null, "document.write(new Date().getFullYear());"), "2021 All rights reserved | This template is made with", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fa fa-heart color-danger",
-    "aria-hidden": "true"
-  }), " ", "by", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://colorlib.com/",
-    target: "_blank",
-    rel: "nofollow noopener"
-  }, "Colorlib")))))))));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Footer);
-
-/***/ }),
-/* 22 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var Spinner = function Spinner() {
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    /* 1. Proloder */
-    $(window).on("load", function () {
-      $("#preloader-active").delay(450).fadeOut("slow");
-      $("body").delay(450).css({
-        overflow: "visible"
-      });
-    });
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "preloader-active",
-    style: {
-      display: "none"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "preloader d-flex align-items-center justify-content-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "preloader-inner position-relative"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "preloader-circle"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "preloader-img pere-text"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "data:image/webp;base64,UklGRnoAAABXRUJQVlA4TG4AAAAvFkAFEEcgECB49L9ig0DSxvP+Pd7yBIIQueT/NggEKPh/ygQeeFKAWsHD+aTyDW82gFFsW20ekLYMff8tEG/fQQbhHQxE9H8CdPUG0IGiXePP+alprUXlS8nWALy7EdFR01qrCjP7GoC4hi53AA==",
-    alt: ""
-  })))));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (Spinner);
-
-/***/ }),
-/* 23 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var BackToTop = function BackToTop() {
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    $(window).on("scroll", function () {
-      var scroll = $(window).scrollTop();
-
-      if (scroll < 400) {
-        $(".header-sticky").removeClass("sticky-bar");
-        $("#back-top").fadeOut(500);
-      } else {
-        $(".header-sticky").addClass("sticky-bar");
-        $("#back-top").fadeIn(500);
-      }
-    }); // Scroll Up
-
-    $("#back-top a").on("click", function () {
-      $("body,html").animate({
-        scrollTop: 0
-      }, 800);
-      return false;
-    });
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "back-top",
-    style: {
-      display: "none"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    title: "Go to Top",
-    href: "#"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-level-up-alt"
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (BackToTop);
-
-/***/ }),
-/* 24 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/InfoSection/Contact.jsx
-
-
-var Contact_Contact = function Contact() {
-  return /*#__PURE__*/external_react_default.a.createElement("ul", null, /*#__PURE__*/external_react_default.a.createElement("li", null, "+54 9 2942 66-9435"), /*#__PURE__*/external_react_default.a.createElement("li", null, "Herrero Ducloux 120, Copahue Q8348AGA Argentina"));
-};
-
-/* harmony default export */ var InfoSection_Contact = (Contact_Contact);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/InfoSection/Logo.jsx
-
-
-var Logo_Logo = function Logo() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "logo"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "/"
-  }, /*#__PURE__*/external_react_default.a.createElement("img", {
-    src: "logo-titulo.png",
-    alt: "",
-    width: "400px"
-  })));
-};
-
-/* harmony default export */ var InfoSection_Logo = (Logo_Logo);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/InfoSection/InfoSection.jsx
-
-
-
-
-var InfoSection_InfoSection = function InfoSection() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "header-info-left d-none d-sm-block"
-  }, /*#__PURE__*/external_react_default.a.createElement(InfoSection_Contact, null));
-};
-
-/* harmony default export */ var Header_InfoSection_InfoSection = (InfoSection_InfoSection);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/MenuSection/MenuMobile.jsx
-
-
-var MenuMobile_MenuMobile = function MenuMobile() {
-  Object(external_react_["useEffect"])(function () {
-    var menu = $("ul#navigation");
-
-    if (menu.length) {
-      menu.slicknav({
-        prependTo: ".mobile_menu",
-        closedSymbol: "+",
-        openedSymbol: "-"
-      });
-    }
-  }, []);
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-12"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "mobile_menu d-block d-lg-none"
-  }));
-};
-
-/* harmony default export */ var MenuSection_MenuMobile = (MenuMobile_MenuMobile);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/MenuSection/MenuSection.jsx
-
-
-var MenuSection_MenuSection = function MenuSection() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-xl-6 col-lg-6 col-md-8"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "main-menu f-right d-none d-lg-block"
-  }, /*#__PURE__*/external_react_default.a.createElement("nav", null, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    id: "navigation"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "/"
-  }, "Home")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "habitaciones"
-  }, "Habitaciones")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "sobrenosotros"
-  }, "Sobre Nosotros")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/blog.html"
-  }, "Blog"), /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "submenu"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/blog.html"
-  }, "Blog")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/blog_details.html"
-  }, "Blog Details")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/elements.html"
-  }, "Elements")))), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "contacto"
-  }, "Contacto")), /*#__PURE__*/external_react_default.a.createElement("li", null, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "header-right-btn f-right  ml-30"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://preview.colorlib.com/theme/ecoho/index.html#",
-    className: "header-btn"
-  }, "Reserva")))))));
-};
-
-/* harmony default export */ var Header_MenuSection_MenuSection = (MenuSection_MenuSection);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Header/Header.jsx
-
-
-
-
-
-
-var Header_Header = function Header() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "header-area header_area"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "main-header header-sticky sticky-bar"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "container-fluid"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "row align-items-center"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-xl-6 col-lg-6"
-  }, /*#__PURE__*/external_react_default.a.createElement(InfoSection_Logo, null), /*#__PURE__*/external_react_default.a.createElement(Header_InfoSection_InfoSection, null)), /*#__PURE__*/external_react_default.a.createElement(Header_MenuSection_MenuSection, null), /*#__PURE__*/external_react_default.a.createElement(MenuSection_MenuMobile, null)))));
-};
-
-/* harmony default export */ var components_Header_Header = __webpack_exports__["a"] = (Header_Header);
-
-/***/ }),
-/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 26 */
+/* 22 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/getPrototypeOf");
 
 /***/ }),
-/* 27 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
 
 /***/ }),
-/* 28 */
+/* 24 */
 /***/ (function(module, exports) {
 
-module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\react-static-website\\node_modules\\react-static\\lib\\browser");
+module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\browser");
 
 /***/ }),
-/* 29 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 30 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2034,25 +2035,25 @@ var ReportContext = _react2["default"].createContext({
 exports["default"] = ReportContext;
 
 /***/ }),
-/* 31 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 32 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 33 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 34 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2065,14 +2066,14 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 35 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
+/* harmony import */ var _components_Cover_CoverSubPage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7);
 
 
 
@@ -2193,7 +2194,7 @@ var ContactPage = function ContactPage() {
 /* harmony default export */ __webpack_exports__["default"] = (ContactPage);
 
 /***/ }),
-/* 36 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2204,32 +2205,32 @@ __webpack_require__.r(__webpack_exports__);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/About/AboutUs.jsx
-var AboutUs = __webpack_require__(10);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/About/AboutUs.jsx
+var AboutUs = __webpack_require__(11);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Rooms/Rooms.jsx + 1 modules
-var Rooms = __webpack_require__(7);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Rooms/Rooms.jsx + 1 modules
+var Rooms = __webpack_require__(8);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Blog/Miniature/BlogSectionMiniature.jsx + 1 modules
-var BlogSectionMiniature = __webpack_require__(12);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Blog/Miniature/BlogSectionMiniature.jsx + 1 modules
+var BlogSectionMiniature = __webpack_require__(13);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Testimonials/Testimonials.jsx + 1 modules
-var Testimonials = __webpack_require__(8);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules
+var Testimonials = __webpack_require__(9);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Gallery/Gallery.jsx
-var Gallery = __webpack_require__(5);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Gallery/Gallery.jsx
+var Gallery = __webpack_require__(6);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/VIdeoPreview/VideoPreview.jsx
-var VideoPreview = __webpack_require__(11);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/VIdeoPreview/VideoPreview.jsx
+var VideoPreview = __webpack_require__(12);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Cover/CoverSubPage.jsx
-var CoverSubPage = __webpack_require__(6);
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Cover/CoverSubPage.jsx
+var CoverSubPage = __webpack_require__(7);
 
-// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Services/Services.module.css
+// EXTERNAL MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Services/Services.module.css
 var Services_module = __webpack_require__(1);
 var Services_module_default = /*#__PURE__*/__webpack_require__.n(Services_module);
 
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/components/Services/Services.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/components/Services/Services.jsx
 
 
 
@@ -2282,7 +2283,7 @@ var Services_Services = function Services() {
 };
 
 /* harmony default export */ var components_Services_Services = (Services_Services);
-// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/react-static-website/src/pages/RoomsPage.jsx
+// CONCATENATED MODULE: E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx
 
 
 
@@ -2304,7 +2305,7 @@ var RoomsPage_RoomsPage = function RoomsPage() {
 /* harmony default export */ var pages_RoomsPage = __webpack_exports__["default"] = (RoomsPage_RoomsPage);
 
 /***/ }),
-/* 37 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2317,9 +2318,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(13);
+var _reactStatic = __webpack_require__(4);
 
-var _router = __webpack_require__(27);
+var _router = __webpack_require__(23);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2434,55 +2435,55 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 38 */
+/* 34 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 39 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/classCallCheck");
 
 /***/ }),
-/* 40 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/createClass");
 
 /***/ }),
-/* 41 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/inherits");
 
 /***/ }),
-/* 42 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/possibleConstructorReturn");
 
 /***/ }),
-/* 43 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(44);
-__webpack_require__(46);
-module.exports = __webpack_require__(53);
+__webpack_require__(40);
+__webpack_require__(42);
+module.exports = __webpack_require__(49);
 
 
 /***/ }),
-/* 44 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(45)["default"];
+var plugins = __webpack_require__(41)["default"];
 
-var _require = __webpack_require__(28),
+var _require = __webpack_require__(24),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -2490,12 +2491,12 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 45 */
+/* 41 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(37);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(33);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -2525,17 +2526,17 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 46 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(28),
+var _require = __webpack_require__(24),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(47),
+var _require2 = __webpack_require__(43),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -2544,7 +2545,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 47 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2556,7 +2557,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -2584,7 +2585,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2592,7 +2593,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(34);
+    return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404";
@@ -2620,7 +2621,7 @@ t_1.template = '__react_static_root__/src/pages/AboutUsPage.jsx';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/ContactPage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/ContactPage.jsx */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/ContactPage.jsx */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2628,7 +2629,7 @@ var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/ContactPage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(35);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/ContactPage.jsx";
@@ -2656,7 +2657,7 @@ t_3.template = '__react_static_root__/src/pages/HomePage.jsx';
 var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/RoomsPage.jsx",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/RoomsPage.jsx */).then(__webpack_require__.bind(null, 36))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/RoomsPage.jsx */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2664,7 +2665,7 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/RoomsPage.jsx');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(36);
+    return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/RoomsPage.jsx";
@@ -2684,7 +2685,7 @@ var notFoundTemplate = "__react_static_root__/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 48 */
+/* 44 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2713,7 +2714,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 49 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2924,14 +2925,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 50 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 9,
-	"./": 9,
-	"./index": 9,
-	"./index.js": 9
+	".": 10,
+	"./": 10,
+	"./index": 10,
+	"./index.js": 10
 };
 
 
@@ -2952,10 +2953,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 50;
+webpackContext.id = 46;
 
 /***/ }),
-/* 51 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2989,11 +2990,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(29);
+var _propTypes = __webpack_require__(25);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _context = __webpack_require__(30);
+var _context = __webpack_require__(26);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -3065,7 +3066,7 @@ ReportChunks.propTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 52 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3076,11 +3077,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(31);
+var _hoistNonReactStatics = __webpack_require__(27);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(4);
+var _index = __webpack_require__(5);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -3132,15 +3133,15 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 53 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(32);
+var _interopRequireDefault = __webpack_require__(28);
 
-var _interopRequireWildcard = __webpack_require__(33);
+var _interopRequireWildcard = __webpack_require__(29);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -3149,9 +3150,9 @@ exports["default"] = void 0;
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(54);
+var _useStaticInfo = __webpack_require__(50);
 
-var _Suspense = _interopRequireDefault(__webpack_require__(55));
+var _Suspense = _interopRequireDefault(__webpack_require__(51));
 /* eslint-disable import/no-dynamic-require */
 // Override the suspense module to be our own
 // This is expected to break when using preact
@@ -3162,7 +3163,7 @@ var _Suspense = _interopRequireDefault(__webpack_require__(55));
 React.Suspense = _Suspense["default"];
 React["default"].Suspense = _Suspense["default"];
 
-var App = __webpack_require__(58)["default"];
+var App = __webpack_require__(54)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -3175,30 +3176,30 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 54 */
+/* 50 */
 /***/ (function(module, exports) {
 
-module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\react-static-website\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
+module.exports = require("E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
 
 /***/ }),
-/* 55 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(33);
+var _interopRequireWildcard = __webpack_require__(29);
 
-var _interopRequireDefault = __webpack_require__(32);
+var _interopRequireDefault = __webpack_require__(28);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(56));
+var _extends2 = _interopRequireDefault(__webpack_require__(52));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(57));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(53));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
@@ -3219,28 +3220,28 @@ var _default = Suspense;
 exports["default"] = _default;
 
 /***/ }),
-/* 56 */
+/* 52 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 57 */
+/* 53 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 58 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(25);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(38);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(34);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(16);
 
@@ -3268,10 +3269,10 @@ if (typeof document !== 'undefined') {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(59)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(55)(module)))
 
 /***/ }),
-/* 59 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
