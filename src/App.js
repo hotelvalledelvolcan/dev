@@ -5,8 +5,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Spinner from "./components/Preloader/Spinner";
 import BackToTop from "./components/BackToTop/BackToTop";
-import HomePage from "./pages/HomePage";
-import AboutUsPage from "./pages/AboutUsPage";
+
 
 class App extends Component {
   render() {

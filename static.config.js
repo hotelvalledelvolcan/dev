@@ -41,11 +41,13 @@ export default {
       },
       {
         path: `habitaciones`,
-        template: 'src/pages/RoomsPage.jsx'
+        template: 'src/pages/RoomsPage.jsx',
+        getData: () => ({ })
       },
       {
         path: `contacto`,
-        template: 'src/pages/ContactPage.jsx'
+        template: 'src/pages/ContactPage.jsx',
+        getData: () => ({ })
       }]
   },
   plugins: [
