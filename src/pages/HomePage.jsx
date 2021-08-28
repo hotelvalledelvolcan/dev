@@ -2,7 +2,7 @@ import React from "react";
 import Cover from "../components/Cover/Cover";
 import AboutUs from "../components/About/AboutUs";
 import Rooms from "../components/Rooms/Rooms";
-import BlogSectionMiniature from "../components/Blog/Miniature/BlogSectionMiniature";
+import BlogSectionMiniature from "../components/Blog/BlogSectionMiniature";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Gallery from "../components/Gallery/Gallery";
 import VideoPreview from "../components/VIdeoPreview/VideoPreview";

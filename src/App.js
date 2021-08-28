@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import ContactPage from "./pages/ContactPage";
 import RoomsPage from "./pages/RoomsPage";
+import BlogPage from "./pages/BlogPage";
 
 class App extends Component {
   render() {
