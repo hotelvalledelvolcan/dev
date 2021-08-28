@@ -14,7 +14,6 @@ export default {
         image: post.image,
         description: post.description
       }))
-      console.log(minimalPosts)
 
     const allPosts = []
 
@@ -32,13 +31,13 @@ export default {
       {
         path: `/`,
         template: 'src/pages/HomePage.jsx',
-        getData: () => ({ posts: minimalPosts }),
+        getData: () => ({ posts: minimalPosts })
 
       },
       {
         path: `sobrenosotros`,
         template: 'src/pages/AboutUsPage.jsx',
-        getData: () => ({ posts: minimalPosts }),
+        getData: () => ({ posts: minimalPosts })
       },
       {
         path: `habitaciones`,

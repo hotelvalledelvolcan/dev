@@ -4,16 +4,16 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  templates/vendors~main.1c4b39bf.js (245 KiB)"
   ],
   "version": "4.46.0",
-  "hash": "4d98ffc59c696dffd208",
-  "time": 3077,
-  "builtAt": 1630131330717,
+  "hash": "84cd633acb988f0e8369",
+  "time": 3344,
+  "builtAt": 1630169965209,
   "publicPath": "/",
   "outputPath": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\dist",
   "assetsByChunkName": {
     "__react_static_root__/src/pages/404": "templates/__react_static_root__/src/pages/404.a7a15586.js",
     "__react_static_root__/src/pages/ContactPage.jsx": "templates/__react_static_root__/src/pages/ContactPage.jsx.b34343bc.js",
-    "__react_static_root__/src/pages/RoomsPage.jsx": "templates/__react_static_root__/src/pages/RoomsPage.jsx.a9e9f7f6.js",
-    "main": "main.620b8289.js",
+    "__react_static_root__/src/pages/RoomsPage.jsx": "templates/__react_static_root__/src/pages/RoomsPage.jsx.d2bfa899.js",
+    "main": "main.de3ba98b.js",
     "styles": [
       "styles.ff699f26.css",
       "templates/styles.0c728392.js"
@@ -22,7 +22,7 @@
   },
   "assets": [
     {
-      "name": "main.620b8289.js",
+      "name": "main.de3ba98b.js",
       "size": 31326,
       "chunks": [
         3
@@ -78,8 +78,8 @@
       "emitted": true
     },
     {
-      "name": "templates/__react_static_root__/src/pages/RoomsPage.jsx.a9e9f7f6.js",
-      "size": 2422,
+      "name": "templates/__react_static_root__/src/pages/RoomsPage.jsx.d2bfa899.js",
+      "size": 2423,
       "chunks": [
         2
       ],
@@ -130,7 +130,7 @@
       ],
       "assets": [
         "templates/vendors~main.1c4b39bf.js",
-        "main.620b8289.js"
+        "main.de3ba98b.js"
       ],
       "children": {},
       "childAssets": {}
@@ -144,7 +144,7 @@
       ],
       "assets": [
         "templates/vendors~main.1c4b39bf.js",
-        "main.620b8289.js"
+        "main.de3ba98b.js"
       ],
       "children": {},
       "childAssets": {}
@@ -189,7 +189,7 @@
       "assets": [
         "styles.ff699f26.css",
         "templates/styles.0c728392.js",
-        "templates/__react_static_root__/src/pages/RoomsPage.jsx.a9e9f7f6.js"
+        "templates/__react_static_root__/src/pages/RoomsPage.jsx.d2bfa899.js"
       ],
       "children": {},
       "childAssets": {}
@@ -407,14 +407,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 3506,
+      "size": 3507,
       "names": [
         "__react_static_root__/src/pages/RoomsPage.jsx"
       ],
       "files": [
-        "templates/__react_static_root__/src/pages/RoomsPage.jsx.a9e9f7f6.js"
+        "templates/__react_static_root__/src/pages/RoomsPage.jsx.d2bfa899.js"
       ],
-      "hash": "5f46f9fa88732be2be16",
+      "hash": "dab02b998dbc2953d9f3",
       "siblings": [
         4
       ],
@@ -431,7 +431,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "index": 154,
           "index2": 157,
-          "size": 3506,
+          "size": 3507,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -490,7 +490,7 @@
               "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx",
               "index": 154,
               "index2": 157,
-              "size": 1045,
+              "size": 1046,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -548,7 +548,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import Services from\"../components/Services/Services\";var RoomsPage=function RoomsPage(){return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"Habitaciones\",description:[\"Hotel Valle Del Volcán posee 40 habitaciones \",/*#__PURE__*/React.createElement(\"br\",null),\" con baño privado \"],image:\"images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(Services,null),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default RoomsPage;"
+              "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import Services from\"../components/Services/Services\";var RoomsPage=function RoomsPage(){return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"Habitaciones\",description:[\"Hotel Valle Del Volcán posee 40 habitaciones \",/*#__PURE__*/React.createElement(\"br\",null),\" con baño privado \"],image:\"/images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(Services,null),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default RoomsPage;"
             },
             {
               "id": null,
@@ -608,7 +608,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Services/Services",
-                  "loc": "1:856-864"
+                  "loc": "1:857-865"
                 }
               ],
               "usedExports": [
@@ -648,9 +648,9 @@
         "main"
       ],
       "files": [
-        "main.620b8289.js"
+        "main.de3ba98b.js"
       ],
-      "hash": "d72ff07e1624d7cc5532",
+      "hash": "a77f05c830c0c8b4883a",
       "siblings": [
         5
       ],
@@ -859,7 +859,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/Gallery/Gallery",
-              "loc": "1:1001-1008"
+              "loc": "1:1002-1009"
             }
           ],
           "usedExports": [
@@ -1047,7 +1047,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/Testimonials/Testimonials",
-              "loc": "1:949-961"
+              "loc": "1:950-962"
             }
           ],
           "usedExports": [
@@ -1155,7 +1155,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Testimonials/Testimonials",
-                  "loc": "1:949-961"
+                  "loc": "1:950-962"
                 }
               ],
               "usedExports": [
@@ -1642,7 +1642,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/Rooms/Rooms",
-              "loc": "1:904-909"
+              "loc": "1:905-910"
             }
           ],
           "usedExports": [
@@ -1750,7 +1750,7 @@
                   "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
                   "type": "harmony import specifier",
                   "userRequest": "../components/Rooms/Rooms",
-                  "loc": "1:904-909"
+                  "loc": "1:905-910"
                 }
               ],
               "usedExports": [
@@ -4540,7 +4540,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-25"
+              "loc": "1:0-36"
             },
             {
               "moduleId": 24,
@@ -4549,7 +4549,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-36"
+              "loc": "1:0-25"
             },
             {
               "moduleId": 24,
@@ -5161,24 +5161,6 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 29,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 29,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-36"
             },
             {
@@ -5206,7 +5188,25 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 29,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
               "loc": "1:0-36"
+            },
+            {
+              "moduleId": 29,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 29,
@@ -5242,7 +5242,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:73-78"
+              "loc": "1:73-82"
             },
             {
               "moduleId": 29,
@@ -5251,7 +5251,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:73-82"
+              "loc": "1:73-78"
             },
             {
               "moduleId": 29,
@@ -6457,25 +6457,25 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 34,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
-              "loc": "1:0-25"
-            },
-            {
-              "moduleId": 34,
-              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
-              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
-              "type": "harmony side effect evaluation",
-              "userRequest": "react",
               "loc": "1:0-36"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
+            },
+            {
+              "moduleId": 34,
+              "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages\\HomePage.jsx 5ba77180d88e881c662678d865664055",
+              "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "react",
+              "loc": "1:0-25"
             },
             {
               "moduleId": 34,
@@ -7798,7 +7798,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:836-841"
+              "loc": "1:837-842"
             },
             {
               "moduleId": 70,
@@ -7807,7 +7807,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:884-889"
+              "loc": "1:885-890"
             },
             {
               "moduleId": 70,
@@ -7825,7 +7825,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:929-934"
+              "loc": "1:930-935"
             },
             {
               "moduleId": 70,
@@ -7843,7 +7843,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:981-986"
+              "loc": "1:982-987"
             },
             {
               "moduleId": 70,
@@ -8967,9 +8967,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -9682,9 +9682,9 @@
           "chunks": [
             5
           ],
-          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "issuerId": 119,
-          "issuerName": "../lib/bootstrapTemplates.js",
+          "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "issuerId": 72,
+          "issuerName": "../lib/bootstrapPlugins.js",
           "issuerPath": [
             {
               "id": 71,
@@ -9692,9 +9692,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             }
           ],
           "failed": false,
@@ -9932,9 +9932,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -10043,9 +10043,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -10465,9 +10465,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11713,9 +11713,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11784,9 +11784,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11860,9 +11860,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11926,9 +11926,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -11997,9 +11997,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12063,9 +12063,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12129,9 +12129,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12205,9 +12205,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12286,9 +12286,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12362,9 +12362,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12509,9 +12509,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12590,9 +12590,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12676,9 +12676,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12752,9 +12752,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -12828,9 +12828,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14661,9 +14661,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14723,9 +14723,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14785,9 +14785,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14847,9 +14847,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14904,9 +14904,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -14966,9 +14966,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15028,9 +15028,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15090,9 +15090,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15152,9 +15152,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15219,9 +15219,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15291,9 +15291,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15363,9 +15363,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15440,9 +15440,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15512,9 +15512,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15589,9 +15589,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15671,9 +15671,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15748,9 +15748,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15825,9 +15825,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15907,9 +15907,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -15989,9 +15989,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16066,9 +16066,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16143,9 +16143,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16210,9 +16210,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16277,9 +16277,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16344,9 +16344,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -16409,9 +16409,9 @@
               "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
             },
             {
-              "id": 119,
-              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-              "name": "../lib/bootstrapTemplates.js"
+              "id": 72,
+              "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+              "name": "../lib/bootstrapPlugins.js"
             },
             {
               "id": 9,
@@ -18764,7 +18764,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-25"
+          "loc": "1:0-36"
         },
         {
           "moduleId": 24,
@@ -18773,7 +18773,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/components/Testimonials/Testimonials.jsx + 1 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
+          "loc": "1:0-25"
         },
         {
           "moduleId": 24,
@@ -19367,42 +19367,6 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-36"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
-          "loc": "1:0-25"
-        },
-        {
-          "moduleId": 29,
-          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
-          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
-          "type": "harmony side effect evaluation",
-          "userRequest": "react",
           "loc": "1:0-36"
         },
         {
@@ -19430,7 +19394,43 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
+          "loc": "1:0-36"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
           "loc": "1:0-25"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-25"
+        },
+        {
+          "moduleId": 29,
+          "moduleIdentifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-1-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\App.js 9949d3421fba2b856fb36681d0743def",
+          "module": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "react",
+          "loc": "1:0-36"
         },
         {
           "moduleId": 29,
@@ -19466,7 +19466,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:73-78"
+          "loc": "1:73-82"
         },
         {
           "moduleId": 29,
@@ -19475,7 +19475,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/App.js + 9 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:73-82"
+          "loc": "1:73-78"
         },
         {
           "moduleId": 29,
@@ -20690,7 +20690,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-25"
+          "loc": "1:0-36"
         },
         {
           "moduleId": 34,
@@ -20699,7 +20699,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/HomePage.jsx + 3 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-36"
+          "loc": "1:0-25"
         },
         {
           "moduleId": 34,
@@ -22022,7 +22022,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:836-841"
+          "loc": "1:837-842"
         },
         {
           "moduleId": 70,
@@ -22031,7 +22031,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:884-889"
+          "loc": "1:885-890"
         },
         {
           "moduleId": 70,
@@ -22049,7 +22049,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:929-934"
+          "loc": "1:930-935"
         },
         {
           "moduleId": 70,
@@ -22067,7 +22067,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:981-986"
+          "loc": "1:982-987"
         },
         {
           "moduleId": 70,
@@ -23191,9 +23191,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -23906,9 +23906,9 @@
       "chunks": [
         5
       ],
-      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-      "issuerId": 119,
-      "issuerName": "../lib/bootstrapTemplates.js",
+      "issuer": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+      "issuerId": 72,
+      "issuerName": "../lib/bootstrapPlugins.js",
       "issuerPath": [
         {
           "id": 71,
@@ -23916,9 +23916,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         }
       ],
       "failed": false,
@@ -24156,9 +24156,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -24267,9 +24267,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -24689,9 +24689,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -25307,7 +25307,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/Gallery/Gallery",
-          "loc": "1:1001-1008"
+          "loc": "1:1002-1009"
         }
       ],
       "usedExports": [
@@ -25495,7 +25495,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/Testimonials/Testimonials",
-          "loc": "1:949-961"
+          "loc": "1:950-962"
         }
       ],
       "usedExports": [
@@ -25603,7 +25603,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/Testimonials/Testimonials",
-              "loc": "1:949-961"
+              "loc": "1:950-962"
             }
           ],
           "usedExports": [
@@ -26090,7 +26090,7 @@
           "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/Rooms/Rooms",
-          "loc": "1:904-909"
+          "loc": "1:905-910"
         }
       ],
       "usedExports": [
@@ -26198,7 +26198,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/Rooms/Rooms",
-              "loc": "1:904-909"
+              "loc": "1:905-910"
             }
           ],
           "usedExports": [
@@ -28632,9 +28632,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28703,9 +28703,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28779,9 +28779,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28845,9 +28845,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28916,9 +28916,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -28982,9 +28982,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29048,9 +29048,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29124,9 +29124,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29205,9 +29205,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29281,9 +29281,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29428,9 +29428,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29509,9 +29509,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29595,9 +29595,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29671,9 +29671,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -29747,9 +29747,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -31184,7 +31184,7 @@
       "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx + 1 modules",
       "index": 154,
       "index2": 157,
-      "size": 3506,
+      "size": 3507,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -31243,7 +31243,7 @@
           "name": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx",
           "index": 154,
           "index2": 157,
-          "size": 1045,
+          "size": 1046,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -31301,7 +31301,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: E:/Repositorios/HotelValleDelVolcan/dev/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import Services from\"../components/Services/Services\";var RoomsPage=function RoomsPage(){return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"Habitaciones\",description:[\"Hotel Valle Del Volcán posee 40 habitaciones \",/*#__PURE__*/React.createElement(\"br\",null),\" con baño privado \"],image:\"images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(Services,null),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default RoomsPage;"
+          "source": "import React from\"react\";import AboutUs from\"../components/About/AboutUs\";import Rooms from\"../components/Rooms/Rooms\";import BlogSectionMiniature from\"../components/Blog/Miniature/BlogSectionMiniature\";import Testimonials from\"../components/Testimonials/Testimonials\";import Gallery from\"../components/Gallery/Gallery\";import VideoPreview from\"../components/VIdeoPreview/VideoPreview\";import CoverSubPage from\"../components/Cover/CoverSubPage\";import Services from\"../components/Services/Services\";var RoomsPage=function RoomsPage(){return/*#__PURE__*/React.createElement(\"main\",null,/*#__PURE__*/React.createElement(CoverSubPage,{title:\"Habitaciones\",description:[\"Hotel Valle Del Volcán posee 40 habitaciones \",/*#__PURE__*/React.createElement(\"br\",null),\" con baño privado \"],image:\"/images/centro-termal-portada.jpg\"}),/*#__PURE__*/React.createElement(Services,null),/*#__PURE__*/React.createElement(Rooms,null),/*#__PURE__*/React.createElement(Testimonials,null),/*#__PURE__*/React.createElement(Gallery,null));};export default RoomsPage;"
         },
         {
           "id": null,
@@ -31361,7 +31361,7 @@
               "moduleName": "E:/Repositorios/HotelValleDelVolcan/dev/src/pages/RoomsPage.jsx",
               "type": "harmony import specifier",
               "userRequest": "../components/Services/Services",
-              "loc": "1:856-864"
+              "loc": "1:857-865"
             }
           ],
           "usedExports": [
@@ -32006,9 +32006,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32068,9 +32068,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32130,9 +32130,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32192,9 +32192,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32249,9 +32249,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32311,9 +32311,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32373,9 +32373,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32435,9 +32435,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32497,9 +32497,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32564,9 +32564,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32636,9 +32636,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32708,9 +32708,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32785,9 +32785,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32857,9 +32857,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -32934,9 +32934,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33016,9 +33016,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33093,9 +33093,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33170,9 +33170,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33252,9 +33252,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33334,9 +33334,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33411,9 +33411,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33488,9 +33488,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33555,9 +33555,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33622,9 +33622,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33689,9 +33689,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,
@@ -33754,9 +33754,9 @@
           "name": "multi ../lib/bootstrapPlugins.js ../lib/bootstrapTemplates.js ../lib/bootstrapApp.js"
         },
         {
-          "id": 119,
-          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapTemplates.js",
-          "name": "../lib/bootstrapTemplates.js"
+          "id": 72,
+          "identifier": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\babel-loader\\lib\\index.js??ref--4-oneOf-2-0!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-hot-loader\\webpack.js!E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static\\lib\\bootstrapPlugins.js",
+          "name": "../lib/bootstrapPlugins.js"
         },
         {
           "id": 9,

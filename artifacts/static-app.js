@@ -2298,7 +2298,7 @@ var RoomsPage_RoomsPage = function RoomsPage() {
   return /*#__PURE__*/external_react_default.a.createElement("main", null, /*#__PURE__*/external_react_default.a.createElement(CoverSubPage["a" /* default */], {
     title: "Habitaciones",
     description: ["Hotel Valle Del Volcán posee 40 habitaciones ", /*#__PURE__*/external_react_default.a.createElement("br", null), " con baño privado "],
-    image: "images/centro-termal-portada.jpg"
+    image: "/images/centro-termal-portada.jpg"
   }), /*#__PURE__*/external_react_default.a.createElement(components_Services_Services, null), /*#__PURE__*/external_react_default.a.createElement(Rooms["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(Testimonials["a" /* default */], null), /*#__PURE__*/external_react_default.a.createElement(Gallery["a" /* default */], null));
 };
 

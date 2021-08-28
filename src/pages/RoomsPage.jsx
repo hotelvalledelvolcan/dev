@@ -18,7 +18,7 @@ const RoomsPage = () => {
           <br />,
           " con baño privado ",
         ]}
-        image="images/centro-termal-portada.jpg"
+        image="/images/centro-termal-portada.jpg"
       />
       <Services/>
 
