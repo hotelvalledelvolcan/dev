@@ -4,7 +4,7 @@ const CoverImage = () => {
   return (
       <div className="hero-img">
         <img
-          src="images/Centro-termal-portada.png"
+          src="/images/Centro-termal-portada.png"
           alt=""
           className="header-image"
           data-animation="fadeInRight"

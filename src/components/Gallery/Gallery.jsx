@@ -40,37 +40,37 @@ const Gallery = () => {
             <div className="instagram-active">
               <div className="">
                 <div className="my-slider-photos">
-                  <img className="image-gallery" src="images/carousel/termas-invierno.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-invierno.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/laguna-verde.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/laguna-verde.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-2.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-2.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-3.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-3.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/salto-del-agrio.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/salto-del-agrio.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-nevadas.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-nevadas.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/copahue-verano.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/copahue-verano.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-4.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-4.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/salto-del-gigante.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/salto-del-gigante.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-cartel.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-cartel.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-puente.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-puente.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-5.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-5.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-nieve.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-nieve.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/cartel-bienvenida.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/cartel-bienvenida.jpg" alt="" />
 
-                  <img className="image-gallery" src="images/carousel/termas-6.jpg" alt="" />
+                  <img className="image-gallery" src="/images/carousel/termas-6.jpg" alt="" />
                 </div>
               </div>
             </div>

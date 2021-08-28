@@ -1,17 +1,44 @@
 import path from 'path'
 import React from 'react'
+import fetch from 'node-fetch'
 
 export default {
 
   getRoutes: async () => {
+
+    const data = await fetch("https://aivenweb-backend.herokuapp.com/api/v1/hotelvalledelvolcan-module/Blog").then(response => response.json())
+
+    const minimalPosts =
+      data.result.map(post => ({
+        title: post.title,
+        image: post.image,
+        description: post.description
+      }))
+
+
+    const allPosts = []
+
+    for (const post of data.result) {
+      allPosts.push({
+        path: 'blog/' + post.title,
+        template: 'src/pages/BlogArticlePage.jsx',
+        getData: () => ({
+          post,
+        }),
+      })
+    }
     return [
+      // ...allPosts,
       {
         path: `/`,
-        template: 'src/pages/HomePage.jsx'
+        template: 'src/pages/HomePage.jsx',
+        getData: () => ({ posts: minimalPosts }),
+
       },
       {
         path: `sobrenosotros`,
-        template: 'src/pages/AboutUsPage.jsx'
+        template: 'src/pages/AboutUsPage.jsx',
+        getData: () => ({ posts: minimalPosts }),
       },
       {
         path: `habitaciones`,
@@ -53,15 +80,15 @@ export default {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="css/superpoderoso.css" />
-        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="/css/superpoderoso.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
           integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
           crossOrigin="anonymous" referrerPolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"></link>
       </Head>
       <Body>{children}</Body>
-      <script src="js/modernizr-3.5.0.min.js"></script>
+      <script src="/js/modernizr-3.5.0.min.js"></script>
       <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossOrigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -76,8 +103,8 @@ export default {
       <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
         integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
         crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
-      <script src="js/slick.min.js"></script>
-      <script src="js/gijgo.min.js"></script>
+      <script src="/js/slick.min.js"></script>
+      <script src="/js/gijgo.min.js"></script>
       <script src="https://raw.githubusercontent.com/9bitStudios/barfiller/master/js/jquery.barfiller.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
       {/* <script type="text/javascript" src="js/main2.js" /> */}
