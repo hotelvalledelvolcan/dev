@@ -25,7 +25,7 @@ const MenuSection = () => {
               </a>
             </li>
             <li>
-              <a href="https://preview.colorlib.com/theme/ecoho/blog.html">
+              <a href="/blog">
                 Blog
               </a>
               <ul className="submenu">
