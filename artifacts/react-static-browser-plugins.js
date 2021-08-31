@@ -3,11 +3,6 @@ import plugin0 from '__react_static_root__/node_modules/react-static-plugin-reac
 
 // Plugins
 const plugins = [{
-        location: "__react_static_root__/node_modules/react-static-plugin-source-filesystem",
-        plugins: [],
-        hooks: {}
-      },
-{
         location: "__react_static_root__/node_modules/react-static-plugin-reach-router",
         plugins: [],
         hooks: plugin0({})

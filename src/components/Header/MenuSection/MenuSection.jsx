@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from '@reach/router'
 
 
 const MenuSection = () => {
@@ -10,44 +11,44 @@ const MenuSection = () => {
         <nav>
           <ul id="navigation">
             <li>
-              <a href="/">
+              <Link to="/">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/habitaciones">
+              <Link to="/habitaciones">
                 Habitaciones
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/sobrenosotros">
+              <Link to="/sobrenosotros">
                 Sobre Nosotros
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/blog">
+              <Link to="/blog">
                 Blog
-              </a>
+              </Link>
               <ul className="submenu">
                 <li>
-                  <a href="https://preview.colorlib.com/theme/ecoho/blog.html">
+                  <Link to="https://preview.colorlib.com/theme/ecoho/blog.html">
                     Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://preview.colorlib.com/theme/ecoho/blog_details.html">
+                  <Link to="https://preview.colorlib.com/theme/ecoho/blog_details.html">
                     Blog Details
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://preview.colorlib.com/theme/ecoho/elements.html">
+                  <Link to="https://preview.colorlib.com/theme/ecoho/elements.html">
                     Elements
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href="/contacto">Contacto</a>
+              <Link to="/contacto">Contacto</Link>
             </li>
             <li>
               <div className="header-right-btn f-right  ml-30">

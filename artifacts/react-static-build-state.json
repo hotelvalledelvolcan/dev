@@ -15,12 +15,6 @@
   "silent": false,
   "entry": "index.js",
   "plugins": [
-    [
-      "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
-      {
-        "location": "E:\\Repositorios\\HotelValleDelVolcan\\dev\\src\\pages"
-      }
-    ],
     "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
     [
       "E:\\Repositorios\\HotelValleDelVolcan\\dev\\node_modules\\react-static-plugin-css-modules\\node.api.js",

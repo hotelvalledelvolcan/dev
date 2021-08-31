@@ -1,6 +1,7 @@
 import path from 'path'
 import React from 'react'
 import fetch from 'node-fetch'
+import { createSharedData, makePageRoutes } from 'react-static/node'
 
 export default {
 
@@ -54,12 +55,6 @@ export default {
       }]
   },
   plugins: [
-    [
-      require.resolve('react-static-plugin-source-filesystem'),
-      {
-        location: path.resolve('./src/pages'),
-      },
-    ],
     require.resolve('react-static-plugin-reach-router'),
     [
       require.resolve("react-static-plugin-css-modules"),

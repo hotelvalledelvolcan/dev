@@ -1,15 +1,47 @@
 
 
+import React from 'react'
+import universal, { setHasBabelPlugin } from 'react-universal-component'
+
+setHasBabelPlugin()
+
+const universalOptions = {
+  loading: () => null,
+  error: props => {
+    console.error(props.error);
+    return <div>An error occurred loading this page's template. More information is available in the console.</div>;
+  },
+  ignoreBabelRename: true
+}
+
+const t_0 = universal(import('__react_static_root__/node_modules/react-static/lib/browser/components/Default404'), universalOptions)
+      t_0.template = '__react_static_root__/node_modules/react-static/lib/browser/components/Default404'
+      
+const t_1 = universal(import('__react_static_root__/src/pages/HomePage.jsx'), universalOptions)
+      t_1.template = '__react_static_root__/src/pages/HomePage.jsx'
+      
+const t_2 = universal(import('__react_static_root__/src/pages/AboutUsPage.jsx'), universalOptions)
+      t_2.template = '__react_static_root__/src/pages/AboutUsPage.jsx'
+      
+const t_3 = universal(import('__react_static_root__/src/pages/RoomsPage.jsx'), universalOptions)
+      t_3.template = '__react_static_root__/src/pages/RoomsPage.jsx'
+      
+const t_4 = universal(import('__react_static_root__/src/pages/ContactPage.jsx'), universalOptions)
+      t_4.template = '__react_static_root__/src/pages/ContactPage.jsx'
+      
+const t_5 = universal(import('__react_static_root__/src/pages/BlogPage.jsx'), universalOptions)
+      t_5.template = '__react_static_root__/src/pages/BlogPage.jsx'
+      
 
 // Template Map
 export default {
-  '__react_static_root__/src/pages/404.js': require('__react_static_root__/src/pages/404.js').default,
-'__react_static_root__/src/pages/AboutUsPage.jsx': require('__react_static_root__/src/pages/AboutUsPage.jsx').default,
-'__react_static_root__/src/pages/BlogPage.jsx': require('__react_static_root__/src/pages/BlogPage.jsx').default,
-'__react_static_root__/src/pages/ContactPage.jsx': require('__react_static_root__/src/pages/ContactPage.jsx').default,
-'__react_static_root__/src/pages/HomePage.jsx': require('__react_static_root__/src/pages/HomePage.jsx').default,
-'__react_static_root__/src/pages/RoomsPage.jsx': require('__react_static_root__/src/pages/RoomsPage.jsx').default
+  '__react_static_root__/node_modules/react-static/lib/browser/components/Default404': t_0,
+'__react_static_root__/src/pages/HomePage.jsx': t_1,
+'__react_static_root__/src/pages/AboutUsPage.jsx': t_2,
+'__react_static_root__/src/pages/RoomsPage.jsx': t_3,
+'__react_static_root__/src/pages/ContactPage.jsx': t_4,
+'__react_static_root__/src/pages/BlogPage.jsx': t_5
 }
-
-export const notFoundTemplate = '__react_static_root__/src/pages/404.js'
+// Not Found Template
+export const notFoundTemplate = "__react_static_root__/node_modules/react-static/lib/browser/components/Default404"
 
