@@ -16,19 +16,19 @@ export default {
         description: post.description
       }))
 
-    // const allPosts = []
+    const allPosts = []
 
-    // for (const post of data.result) {
-    //   allPosts.push({
-    //     path: 'blog/' + post.title,
-    //     template: 'src/pages/BlogArticlePage.jsx',
-    //     getData: () => ({
-    //       post,
-    //     }),
-    //   })
-    // }
+    for (const post of data.result) {
+      allPosts.push({
+        path: 'blog/' + post.title.replace(/ /g, ''),
+        template: 'src/pages/BlogArticlePage.jsx',
+        getData: () => ({
+          post,
+        }),
+      })
+    }
     return [
-      // ...allPosts,
+      ...allPosts,
       {
         path: `/`,
         template: 'src/pages/HomePage.jsx',
@@ -47,6 +47,11 @@ export default {
       {
         path: `contacto`,
         template: 'src/pages/ContactPage.jsx'
+      },
+      {
+        path: `blog`,
+        template: 'src/pages/BlogPage.jsx',
+        getData: () => ({ posts: data.result })
       },
       {
         path: `blog`,

@@ -5,7 +5,7 @@ import { useRouteData } from "react-static";
 
 const BlogPage = () => {
   const { posts } = useRouteData();
-  console.log(posts);
+
   return (
     <main>
       <CoverSubPage

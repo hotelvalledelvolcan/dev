@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from '@reach/router'
 
 const ArticleHeader = ({ article }) => {
 
@@ -13,11 +14,11 @@ const ArticleHeader = ({ article }) => {
         </a>
       </div>
       <div className="blog_details">
-        <a className="d-inline-block" href="blog_details.html">
+        <Link className="d-inline-block" to={"blog/" + article.title.replace(/ /g, '')}>
           <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
             {article.title}
           </h2>
-        </a>
+        </Link>
         <p>{article.description}</p>
         <ul className="blog-info-link">
           <li>
