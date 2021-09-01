@@ -75,8 +75,24 @@ export default {
     children,
     state: { siteData, renderMeta },
   }) => (
-    <Html lang="en-US">
+    <Html lang="es-ES">
       <Head>
+        <title>Hotel Valle del Volcán | Termas de Copahue</title>
+        <meta name="title" content="Hotel Valle del Volcán | Termas de Copahue" />
+        <meta name="description" content="Hotel Valle Del Volcán lleva más de 25 años acercándote a las termas de Copahue" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://hotelvalledelvolcan.info/" />
+        <meta property="og:title" content="Hotel Valle del Volcán | Termas de Copahue" />
+        <meta property="og:description" content="Hotel Valle Del Volcán lleva más de 25 años acercándote a las termas de Copahue" />
+        <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="hotelvalledelvolcan.info/" />
+        <meta property="twitter:title" content="Hotel Valle del Volcán | Termas de Copahue" />
+        <meta property="twitter:description" content="Hotel Valle Del Volcán lleva más de 25 años acercándote a las termas de Copahue" />
+        <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png" />
+
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/css/superpoderoso.css" />

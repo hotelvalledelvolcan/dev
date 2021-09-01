@@ -21,7 +21,7 @@ const CoverPage = () => {
                 className={clasess.animation6}
               >
                 Hotel Valle Del Volcán lleva más de 25 <br />
-                años acercandote a las termas de Copahue
+                años acercándote a las termas de Copahue
               </p>
 
               <a
