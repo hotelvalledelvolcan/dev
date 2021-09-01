@@ -21,7 +21,7 @@ const AboutUs = ({text1, text2, text3}) => {
                     {text3}
                   </p>
                   <a
-                    href="https://preview.colorlib.com/theme/ecoho/index.html#"
+                    href="sobrenosotros"
                     className="btn"
                   >
                     Saber más

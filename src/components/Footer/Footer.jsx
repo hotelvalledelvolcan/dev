@@ -86,15 +86,15 @@ const Footer = () => {
                 </div>
                 <ul className="mb-20">
                   <li className="number">
-                    <a href="https://preview.colorlib.com/theme/ecoho/index.html#">
+                    <a href="https://api.whatsapp.com/send?phone=5492942669435&text=Hola, me gustaria saber más sobre el alojamiento en Hotel Valle del Volcán" target="_blank">
                       +54 9 2942 66-9435
                     </a>
                   </li>
-                  <li className="number2">
+                  {/* <li className="number2">
                     <a href="https://preview.colorlib.com/theme/ecoho/index.html#">
                       contact@carwash.com
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
