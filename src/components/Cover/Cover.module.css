@@ -1,0 +1,13 @@
+.portada {
+  opacity: 1;
+  width: "1903px";
+}
+
+.container {
+  width: "1903px";
+  position: "relative";
+  left: "0px";
+  top: "0px";
+  z-index: "999";
+  opacity: "1";
+}

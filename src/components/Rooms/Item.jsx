@@ -1,9 +1,10 @@
 import React from "react";
+import classes from "./Item.module.css"
 
 const Item = ({title, image,price, description}) => {
   return (
     <>
-      <div className="col-4" style={{width: "468.25px", marginRight: "10px"}}>
+      <div className={"col-4 " + classes.room}>
         <div className="single-items">
           <div className="items-img">
             <img

@@ -29,23 +29,6 @@ const MenuSection = () => {
               <Link to="/blog">
                 Blog
               </Link>
-              <ul className="submenu">
-                <li>
-                  <Link to="https://preview.colorlib.com/theme/ecoho/blog.html">
-                    Blog
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://preview.colorlib.com/theme/ecoho/blog_details.html">
-                    Blog Details
-                  </Link>
-                </li>
-                <li>
-                  <Link to="https://preview.colorlib.com/theme/ecoho/elements.html">
-                    Elements
-                  </Link>
-                </li>
-              </ul>
             </li>
             <li>
               <Link to="/contacto">Contacto</Link>

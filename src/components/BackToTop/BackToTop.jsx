@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import clasess from "./BackToTop.module.css"
 
 const BackToTop = () => {
   useEffect(() => {
@@ -26,7 +27,7 @@ const BackToTop = () => {
   }, []);
 
   return (
-    <div id="back-top" style={{ display: "none" }}>
+    <div id="back-top" className={clasess.ocultar}>
       <a title="Go to Top" href="#">
         <i className="fas fa-level-up-alt"></i>
       </a>

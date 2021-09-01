@@ -2,20 +2,21 @@ import React, { useEffect } from "react";
 import CoverImage from "./CoverImage";
 import CoverPage from "./CoverPage";
 import { mainSlider } from "./coverAnimations";
+import classes from "./Cover.module.css"
+
 
 const Cover = () => {
-
-useEffect(() =>  {
-  mainSlider();
-}, [])
+  useEffect(() => {
+    mainSlider();
+  }, []);
 
   return (
     <div className="slider-area">
       <div className="slider-active slick-initialized slick-slider">
         <div className="slick-list draggable">
-          <div className="slick-track" style={{ opacity: 1, width: "1903px" }}>
+          <div className={"slick-track " + classes.portada}>
             <div
-              className="single-slider slider-height d-flex align-items-center position-relative slick-slide slick-current slick-active"
+              className="single-slider slider-height d-flex align-items-center position-relative slick-slide slick-current slick-active "
               style={{
                 width: "1903px",
                 position: "relative",

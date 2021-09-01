@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from '@reach/router'
+import clasess from "./ArticleHeader.module.css"
 
 const ArticleHeader = ({ article }) => {
 
@@ -15,7 +16,7 @@ const ArticleHeader = ({ article }) => {
       </div>
       <div className="blog_details">
         <Link className="d-inline-block" to={"blog/" + article.title.replace(/ /g, '')}>
-          <h2 className="blog-head" style={{ color: "#2d2d2d" }}>
+          <h2 className={"blog-head " + clasess.color}>
             {article.title}
           </h2>
         </Link>
@@ -26,11 +27,11 @@ const ArticleHeader = ({ article }) => {
               <i className="fa fa-user"></i> {article.tags.map(tag => tag.name).join(', ')}
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#">
               <i className="fa fa-comments"></i> 03 Comments
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </article>
