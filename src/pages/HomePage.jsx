@@ -10,7 +10,7 @@ import { useRouteData } from 'react-static'
 
 
 const HomePage = () => {
-  const  {posts}  = useRouteData()
+  const  {posts, prices}  = useRouteData()
 
   return (
     <main>
@@ -20,7 +20,7 @@ const HomePage = () => {
         text2="Cercanía y comodidad para disfrutar Copahue"
         text3="Junto al volcán copahue hacen una combinación perfecta para que Copahue sea un paraíso termal."
       />
-      <Rooms />
+      <Rooms prices={prices}/>
       <VideoPreview />
       <BlogSectionMiniature posts={posts}/>
       <Testimonials />

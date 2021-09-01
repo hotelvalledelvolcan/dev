@@ -1,16 +1,16 @@
 import path from 'path'
 import React from 'react'
 import fetch from 'node-fetch'
-import { createSharedData, makePageRoutes } from 'react-static/node'
 
 export default {
 
   getRoutes: async () => {
 
-    const data = await fetch("https://aivenweb-backend.herokuapp.com/api/v1/hotelvalledelvolcan-module/Blog").then(response => response.json())
-
+    const dataBlog = await fetch("https://aivenweb-backend.herokuapp.com/api/v1/hotelvalledelvolcan-module/Blog").then(response => response.json())
+    const dataPrices = await fetch("https://aivenweb-backend.herokuapp.com/api/v1/hotelvalledelvolcan-module/Prices").then(response => response.json())
+    console.log(dataPrices);
     const minimalPosts =
-      data.result.map(post => ({
+      dataBlog.result.map(post => ({
         title: post.title,
         image: post.image,
         description: post.description
@@ -18,31 +18,30 @@ export default {
 
     const allPosts = []
 
-    for (const post of data.result) {
+    for (const post of dataBlog.result) {
       allPosts.push({
         path: 'blog/' + post.title.replace(/ /g, ''),
         template: 'src/pages/BlogArticlePage.jsx',
         getData: () => ({
-          post,
+          post
         }),
       })
     }
     return [
-      ...allPosts,
       {
         path: `/`,
         template: 'src/pages/HomePage.jsx',
-        getData: () => ({ posts: minimalPosts })
-
+        getData: () => ({ posts: minimalPosts, prices: dataPrices.result })
       },
       {
         path: `sobrenosotros`,
         template: 'src/pages/AboutUsPage.jsx',
-        getData: () => ({ posts: minimalPosts })
+        getData: () => ({ posts: minimalPosts, prices: dataPrices.result })
       },
       {
         path: `habitaciones`,
-        template: 'src/pages/RoomsPage.jsx'
+        template: 'src/pages/RoomsPage.jsx',
+        getData: () => ({ prices: dataPrices.result })
       },
       {
         path: `contacto`,
@@ -51,13 +50,9 @@ export default {
       {
         path: `blog`,
         template: 'src/pages/BlogPage.jsx',
-        getData: () => ({ posts: data.result })
+        getData: () => ({ posts: dataBlog.result })
       },
-      {
-        path: `blog`,
-        template: 'src/pages/BlogPage.jsx',
-        getData: () => ({ posts: data.result })
-      }]
+      ...allPosts]
   },
   plugins: [
     require.resolve('react-static-plugin-reach-router'),

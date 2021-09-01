@@ -7,8 +7,11 @@ import Gallery from "../components/Gallery/Gallery";
 import VideoPreview from "../components/VIdeoPreview/VideoPreview";
 import CoverSubPage from "../components/Cover/CoverSubPage";
 import Services from "../components/Services/Services";
+import { useRouteData } from "react-static";
 
 const RoomsPage = () => {
+  const { prices } = useRouteData();
+console.log(prices)
   return (
     <main>
       <CoverSubPage
@@ -20,9 +23,9 @@ const RoomsPage = () => {
         ]}
         image="/images/centro-termal-portada.jpg"
       />
-      <Services/>
+      <Services />
 
-      <Rooms />
+      <Rooms prices={prices} />
       <Testimonials />
       <Gallery />
     </main>

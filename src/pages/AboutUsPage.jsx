@@ -9,7 +9,7 @@ import CoverSubPage from "../components/Cover/CoverSubPage";
 import { useRouteData } from 'react-static'
 
 const AboutUsPage = () => {
-  const  {posts}  = useRouteData()
+  const  {posts, prices}  = useRouteData()
 
   return (
     <main>
@@ -27,7 +27,7 @@ const AboutUsPage = () => {
         text2="Garantizar una relación precio-calidad excelente."
         text3="Contamos con menú fijo y dietas especiales a pedido de nuestros clientes, todas nuestras comidas se realizan de forma casera y sana para acompañar de manera acorde el tratamiento termal."
       />
-      <Rooms />
+      <Rooms prices={prices}/>
       <VideoPreview />
       <BlogSectionMiniature posts={posts}/>
       <Testimonials />
